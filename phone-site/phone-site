@@ -1,0 +1,2411 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="referrer" content="no-referrer">
+<meta name="theme-color" content="#0b0f12">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="DA Library">
+<link rel="icon" href="data:image/png;base64,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">
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAcWUlEQVR4nO2deZxdVZXvv2uf4Y5VlVQqgVQIgYidAXwqkjCKiYwhoi1KnojDcwix9b3u1/2xtdtWK/nY/frZDg8FhzAI2r7XrxOHp0CLSAYkjBIFTAADgRAgZKgkVXXne87Z+/2x762BVFK3xlQV9/f53E8qp869+9Rdv73W2muvtTbU8bqGHJdRjTk+4453iJixHtId9RHa2hSrTxeYLqw/YLh6u0FEj/q4ExEGgTZhMwqAJWhYYxBGjRijMxONETavdliyJur34XeubcKNFI0JQ1ehrg0aEwbxhSnXHu7395vaXJagkTUjPnFG9ss3bQpOF2RF1H0t/2+zyZfOIjJnEoSLEeIYFqLEwYy5xhu/UAKReQ5XMnjukyj1BJE8yrSTdiBLQ8BOrPXrFSt6fb/DxMgQ4LWCb7/pJCL3A2hzFcKbScaSuA6EERgDxWBEhp1cMOB7lgiuY7+nTCFCZAeuugsl/0rzf3nS3tqmWH+6jAQRhk+ATW0uS9dYhr56yxk4zt+AeR+peCPlEIpliHQEGHTF+TNGjZ5Vm6AQ6PaNlBhAEHGIexD3IVuIUGojYr5Gy8d/A4BZ58DVejjO49AJYIzAakHWaJ7/7jwaEp9Hm2tJxXwyBYh0iEHQRiEIngO+C64CpSzT6+iBMRBpiAyUQwgi0MagxCBoRFzS8eo9vyEKv8qJn9xQea8aqmM9tFXAunUOInZW7/3BF3Hks6RiTRzOweFchDEKcIl7kPAh0khHHvXsPtTBHM5z+5COPDhqSMNPOhiDcR2iha2YKUmiOdMw09IQc4ViKBTKCq0NmYIGhMbEJZS5hAO33caB7N8ichCzzunje9WIwU9Ds8lFlobsWjuTpHsbDcnL6MhVZ7yDMUIqBp6D2tWO98CzeJuewXnmVdTeTiRfhlCDrq8E+0AEXIWJeZiWBqLTphOc/0aCJfOJ5s+0kyVTtJpCSQQiTEsrcqVnKQUfY9bKB3hsrcdZqwblYA2OAFWW7V67iGTsF/juTLryIeCgjZDwIeHhPPky8Vt/i3fPNlR71r415oHvWNUvcrxCUOMXBitcYyCIkFIIocY0xgnPnkvxk+8guHCe/f66CvZfQ0jSdxEJKZQ+zazrbh6sOahdDFVn78WbVpD0vo9SUymUQsDFAM0pnKf2EP/+Jvw7Hke6Cph0HDzHvl9X/rg6Bob0miSRRnIlUEJw4TwKq5YQLl0A2aJdVYlEOMoh5kExWE3rJ9fYuMHqqBbnsDYCVNX+S2vfR3PDT8gUIIg0GIXvgu8Ru/1+kl+/G2nPYJqSVmVpTd3bHwE4CoxBMkVQQvGjF1D43DI7wTJFcMQAmplTHV45dD0nr/prTJuLVFZnx8DABKiqlJ3fW0xT4m60tss7YxySMaSzQOoffoL/062YxoRV82Hdvo8KqkQ4mCU88xRy3/wA0ZtOgo68XToqFZL0PTLF65h93c21OIbHJoBpU7DGsO/mGYjzJK4zg3zJzvyYhzqUI73yNtyHdmJOaLSCr6v50YfnIB15dHOK7K0fJ1x0qtUElgSGVFzRkbmUOX/xm4FIMAAB1jmw3fDq7LtJxy+hKx9ijEsyhhzI0Pjeb+PsPmRVfjhi0ck6aoGjoBwioabrRysJL14I7RlwlMb3BKP3k1dv4ZRd+wGOto9w9IV4lTkvz/w7pqYvqXj7Lr6LdBZoWHkbzkt14R83RBp8F+MI6f/2Y5xHX4DGBGijKJU1qfgJuOUfWsGfftSJ3j8BTJuCqzW7bz6NWOzzdOY14GCAmEfqH35q1X5d+MOGiCAyxDVxpOk2xX/5Y+RQzkZbRRw68yFNqUt5+ZarkRWR1eZH4iga4HRBxKD0l0jHGwlDjTbC1BSx2+7H/+lj1uYHdeEPByJCFEUEQTAsEpimBM6OfaS+/HNI+tUltyKMDGL+iR3fisF2018izpEEMEZZ1X/LPGL+f6YjpzE4JHzU03tIfv1u6+3XPf1hQUQIwpApU6Zw8uzZlMvloZMgiDDNKfyfbcX/2VaYkrSmIFfSNCXfSDL5AWsK1h8h7340wPrKU5gvkIjFiCLLnLhH4vubkPaMVTN1b39YUEqR6eziissv47N/81dkO7twnH61dG0wYDyHxI0bKrEBBSCUQoPw9+z+RgKu1jbrqNdz9P0QY/f0d62diSvvI1MwGFGkYqg/vox/x+N1uz+CEOCSi9/Ju5Yvp3HqFIJgGHkSWkM6hrPNyommikNYKGkak/PwplxkI4Pr+sj8NRpgs6Wg61xLQzJFFEVgBM8hcetvka5CfQdvBCAilMtlZp40i3PPOZuWac2cvWgR+Xx+eFpAG4zvkrj1t3A4D56q7jEYguhT9qbtfVT3awmgWXe1A/r9BKFNUox7yK52/Hu22dCjrqv+4UIpRS6X5+3nn8eJJ5yAMYYr33UF5fIwnEGwsknFcLa9grflWUjHrU+XLwmucyEv3tCKrNG9ncEeAhhjkzvOeeeJOM6bKARWhSR8/AeeRdqzdmOnbvtHBFpr3nPlcsBqhGWXX8rU5qnDMwNVGIO/YTuVOJ8QRhHpWAOxxGJ7Q48z2EsDVC667tkkY0miKLLrFI236ZnhP1QdQI/6b22dyUVLlwCWDG+YO5dFbztzZMxAwsd9aKd12D0HDAZHQaiX2pum96MBqhe1WdT9Jk8hHXmcp/fY/fy6+h82qur/gvPPY8aMGWit0VojIrzrimXDNwPGgO/gvNqBeuEAxDzACEEIcKZV/5u71/C9CFC5aDjT2n8j+C5q9yHUvq66+h9B9Fb/WmuUsmIYMTOgFBQC3GdetXLTRlEOAebx/E2Nvf2AfpaBkujew3cUciiL5Evg1FN4hgsRIQiCPurfcRyUUq8xA4XhmYFKIona22nlZrMFQJRPHK/3rZYAVQdw1/VNwALKFQfQVbjP7bNRv+GopTpQSuH7PpmuDOefdy4zZszodrOAbjOw/IpllAsFXNfFcZyhmQMNuArnuf1QjkApIYw0ca8RcRbam6zP11cDqJgglRQvABHkcN7a/rr8Bw2lFK5rE68zmSz7DxzA9VxWvP8qzGvMqVIKYwzvWnY5s06ezb59++jo6CAMQ1zHGTwZRJDDuV6yM6BEENUnE7y/tPC+T+bWAz+DgVIKpRRhGJLJZCmXy0ydOoULLzif5csvZ9lll/FnbzwNoI+arxJg7txT+d1D93Pvhk3cedd/sOXBh9i7dy+iFKlkkpjvW42u9REkOgL9yq6vJz9wXUDd76sJIoLW+gihv2v5Mi679GLmz5tX02cAzDzxRD587TV8+NpreGXPHjZuuq9fMniuiz4WCWqQ3eiXhw8FImPrdL72izKmJ027RpRKJWKxGOedezZXLr+CZZdfxoL5PUI3xhBFGqWk2+s/6uMY0+0TzGpt7UOGezdu4o477uKhhx+lo7MT3/eGtWwcfwQQsXnxh4vWdo2FBqoEzBCpFGcqjOfYIk0llgjHiIEYA1f9+Xv4u899loUL5ndfD8MQrTWu61b8gdo8exHpNg9aa6IowhjDrNZWPvqha/noh65l/4EDfPvG7/KD239EoVDoNiGDxfgigAhSDolOaaH83rdBEI7+6sMaVCgGSKaIas+i9nWi9nbaopZiAJ6DSfpHTXUXgY2b72PXiy/y9gvO54rLL2PxorPwvJ4VVxhF1gerMQPIBogMjqP6fM627U9xz70b2LBhE0//6RlKpRIiMiThwzgkAKUAfXIzhS9eCdkxij/0VvmRhkKAHMrivNCOu3UX/v07cJ54CenKYxpiVjNEfRNiMtksj/7uMe7f8iDXf/tGFi5cwKUXX8yVy5ex6Ky34fZy+IwxRyVBVZDWmbTXnvnTn/j1Pfdy512/Yusf/sDhwx14nks8Hu9eZQwV44sA0G0CaM9CpSJm9Md8zfhKMNMbCWdNJVw6n+Kn34m77RX89b8j9v9+j3QWME2JPtrAUYp0Ok1joyKKIrZvf4rHtv6e6799Qx8yLF501jF9gCoxnvnTDn59z2/6CN33fVKpJNOnt3SHkIeL8UcA6C6UtKXkxykAEYRUCmBACeFbZhMuOpXSR84j8fW78f/jSUxD3D5fxT/oLZRkMkk6ne5Dhm/d8B3mzj2Ftd+9gXMWL0Zr3W3rqzP/4MFDfOhjn+CRRypOnnek0MNwwIKfmlFf5B8NVYfQUfbnXBkO5YjeeCLZWz9G7itX2cyoIOqXpFVBGWNIJpNMb2khlUryx99v5Uf/+n+OMAHVqOA9927g13fegeu6TG9poaEhDfQ4lCONOgFqRWV1QKEMXUVKn15K9nsfobLNekxntUqGKIpoaJ7Opvt+SzabxXGcPjYf4Jd33oWXbEBERk3off6sUf30yYiqVtifIbjyrWS/+YFKevzAXrjWmljMZ+fzz/Pgw490XzPGoJRi//79bHngQRKJuM3GGwPUCTBUeA4c6CK46iyKn3kn0llbvqSIEIURv7jjzu5rVWFv2LSZPXtexff9IS/rBos6AYYDx4HDOQqfuYjwzSd31/EfC1EUkUwl2bBxc7cZqPoDv7jjrgGjhCONOgGGA8Ha/8YExZXvqBTLDFBvawyJeNyagYesGXAcp1v9p1LJUbf7vTH5CFAN29byirR9DSfVrdK7J7hoAdFpM2zkcIBIX7cZuLPHDGzYOPbqH8ZrHGA4iHuVRgoD3CfY1ClHoBRCvlzt1Te48QQII0xLmuC804jv2IJJeLbd21HQ2wx0ZTI0NjTwizvuHHP1D5OJAMZA3CP5P+7CeWI3JGPH7ERmXAfTnCI67QSC804jesvJNvBTDoccfArPPAV++EANj1oxA8/tZOvWP3D22Yu57/4tY67+YVIRAFAK94ndeBuewjQkBm5FVzEFJh2jfPmbyH/p3bY/XzEYHAlEINBEp7bYTaMahCgihOUyGzdtplwus3fPHqafcMKIRvlqweQhQAUm6WMaE5j0AAToLV9tiK17FOf5A2R+vBKTilc7cNU2aCUJ0zSnMEkfKQQ9yZhHQRRFJBvS3HHXXTz86KMkEmM/+2EyOoFV504P8Ip6vYzBnNCE97sXSNy4safGflDjamv7vWrl9MCrgXg8zgu7XuThRx4lcRzUP0xGAgwVQYRujOP/ehtyoLuiZlRhjMF13TH3/HujToAqjAHXQdozqJcPDb4HglJIMexlOmp7rzHmuAkf6gToCxEII9vPeDBOoMEW0RzO9bx3giTT1gnQG8aA42Dig6yDNMYWYrzYbgkwgXooTJwnHW2I2ObM01LoWVMHn48ogvv7FydcF/Q6AarwHKSrQPmdCzAnNtmSqlrl7zrIwSzelmcHrz2OMyYfAar79WqAl9PrpQTZ30X0n2ZT+MtLbNJHrT5AqKEhhrfxaZwd++zxLhOoinrSBYIkX7a9jKrp3sdCpYW9SfqU3/NW8m3vwbQ01E4AY2wfnq4i8bWb7M8TxfurYPIQQACtCd98shVBLXsBU5NEb5hh9wLeOscu4QYz+yMNzY0kvvxz3CdewkxNHZEuPt4xiQhgd/XyX1g++N3AcmhT0IXaZ35kYEYj/m1bSHx/E2ZKcsIJHyYTAaooBrVr4aqtrmYA14JQ2zMRpiaI3fpbkl/8GSbhTzTN343JR4BBnUc0iGWeNlZbNKeQwzkSf/8T4j+43wq/Wj84ATH5CDBaSPmQD/DX/474dzbgbn/Fqv1BVhGPN9QJUAuMIfbvjxL/zkbcbbsxjSl0SwNSHtu9+9FAnQA1QQjOPQ09vQFv4zP4dz6OOpCx9YF1DfA6gIBunYI+tYXgsjdR/PjbSdx4L7GfPGYjf66aUNG/3ph8kcDRQjmCriIczqHnTCN3w4fIXn+N3QUcRh7h8cbk0wDRIM4qrMqslmVgd8aw2KVmoUz5g+egZ06hYeXt9prvTDhNMLkIYLB98t1KNs9Ak7JaQxBGUAgseWrZylUVIuzPEC6ZT/ZbHyR93e0TTvgwmQhgAN8h9m+PoHa12x65AzhnxnPQ0xuI3ngC0cJWSCftuby1xhI8Bw5kCJa/mcJfXULyf9414cLBk4gABjxLAO++7ZhEYmBBVLuBJH2i+TMpfvJCyn9+pi0SqUWDgNU2h3IU/2Ip/sancf/wIiYVmzDaYPIQAOy5OU0JTFO6trqAqoy0xv3jy6Q/9UMKT75E4YvvtptCtTCgkhJOPEbhv15Ew8d/MMw/Ymwx+VYBkbbx+lpe3WnhYJIxTHOaxLc3ELt9iz2EsVZV7ijIlAgunEd45pzB5xQeR0w+AgwVulIf0BQncfN9yL4u69XXqsm1hlSM8qVn2FrDCdJcu06A3tAGYi7qlcO4j++22T215viJQBASLD614gNMDEewToAjYJND1e6Dg8vuFYFyhJ4zDTOjwbaNmQBaoE6A/mCMje4NRn7V+sCGhN0oCvSEaLFfJ0B/EEFPTQ1+KWeMPdE7HQNTNwETE1pjUjGiBTMHr8YN9htV1ZS08a8C6gToDd9FOgo2SfSMkwaXIAo9PYPK1VXA+A8GTa5AEPStCxgIvWVrDHIgg54zjfyX3t3TQHowk1gpKAaoGlvGjQdMOgIMqi4AemoD4j7ly84g/+V3o+fOGHyj6l7VxXKgC+PWkJk8DjB5CDDIugAA4yjMlEptwDlvIDrrFEuIoXQpN0DMwXn+AOpQrtIqZvwzYBIRYJB1AdBTB+Aom/CRL1UcuSE4bxUN4D2800YCUzEmggqYPASoYjB1AXBkbcBQHXdHIYfztkFVfOCt6PGCyUeAQdUFwIgs1UINzUm8n27F3b4H01jDTuQ4wcRwVcczDLYotLNA/LsbK2f1TYzZD3UCDB9RBFOSJK7/De6TL02oZBCoE2DoMNhcwumN+D9+iMTaTZimiVcgWifAUBBpwFjh/99HSH3+J9bxm4CYfE7gaKISNCIdAwPxr/2K5Dfuxvhu5UzBiaP6q6gT4Fgwpick7CgreEfhbN1F8l9+hbf5aevxIxNS+DBeCWBMT97eWOXW9XN2IL5rX66CbAn34eeJ/fsj+Hc+gRTLmCmpHnMwQTH+CFBJ76YlXen9P0YEqM70aq/hQhn1aidq5368x17A2/Iszh9fRooBpiFus44nmMPXH8YXAYyBmIfafYjEP94xNmcHQ5/zg1VnwbaL3ddpCXAoZ0O7vms7kce9nmziSYBxRwDju6gXD5L4x1+O3enh0HOCuJLuk0tN9dDoVKynjOwYJ4FMRAxMgLGOaVdMgGlJj/G4/TxH97HxE1ToNciuLwGkIJVmdz3wnLHPbDIGwgn6pY8neE7f/9t9kj7yVZVfGEybYvaZXRizA9+118KIYEGr/aAJusx5XUIBQUS0oBViLkTa4DpCoZwhVDvsTdtN9dYeyNIQTKayLWqIjG2ENNje+XUcfyhBT0v33u4WtA4pBV32wurXEmBJRRuop3EdqwHKIfqUFnRLA5SPfUByHeMIlQqncEErBBqUGGsOzC4Ok8cYQaQfDQCg5DGMATFCEFWOVpuBlAc+ELGOcYBqhdK0NNHc6WDlpvFdgCc5a1UA67vl3osAm+3C1tEPkiuVUY6yTPIIzv+zSlRujP+YOgYPEaQYEL51DmbmlErbe2OzZJTabG+a3j2Te0QqazQGYf8ruyiHLxBzBSWaUkB5yTxMY7xyNm4d4xoKiCLKFy+0CzptQDmKXKFMpB+0N23WvW/vhU0OZ6wpo7iThA+CJl9Gz59JuHiuPR17guS7vy4hAsUQPbuZ4B3zbXazIxEJH4LocWa98hymTSFrjkaAJbpy9TaypRARp3oeTmHlOyZ0T9zXBRxBckVKHzwXM2caFMNK7yRXEHWLFfySfuIAVYhoTJti5nXbKQf3k44LSiK6ioQXziO4cB7SVaxrgfGISlq8PqmZ4gfPgWzRev++q+jMH4To5xgElkS939aPJE+3DoJRX0Eb+8HGgBIKn1paORK1rgXGHRyFZIoUP3I+5qSpdvYLEQ0JIYpuZNaqdlinqsu/Ko4kgKyIbFTwk5vIFTfTkHCsFigQLplP8aMXIAezR4YZ6zh+cBTSmSdcPJfiqiXQWais/V2HzvwhGuM3YIzA1Ud48UfR5RUtoMxqoijqTpDIFil8bhnR205BOvJ1UzAeIPbEE5OOkfvn9/d0KxUi0nEhCr9J00cPwvojZj8cjQCyIsKsc2hddR+Z4v+mOe1gCAkjTEOc7Dc+gGlO2TLoOgmOH0S61/25r1xF9NaTIVOyq7dkzKUj9yyzpn4N06b6m/1wrH0+YwRWC3tam3G9R3DUqRTKBm0UU5O4D++k8ervYhyxXTknSYLEhEElVU7t7yL71RWUPnMRHOgCRxkcJ8JVQjG4gNnXPYwxCpF+BXT06StiYDXMWtVOOfggBnCV4IihI0941qlkfrQSk44jmWLdJxhLOAqCCMkUyX11BaWPvx0OZm3XUiSiOe2SL33WCn+dczThw0DBXRGNWecwe9Uj5AqriHmCUiFKDNkiwcULyf5wJdGpLUh7tvsQxjpGCSK2B0GmAK5D7n9dQ/EzF9nWtvbA6oCmpMvBrpuZ86nrMW0usiI65kfWNPBjaz3OWhXw0trVtE5rY+/hEGMcIi00JpBDOVJf/jn+z7babJ7eKVR1DB8idvldCpFMkXDxXHL//H5r86sz3xAwo8mjvfNeWldeYu3+atOf49fno2t6AIPAJgeWRLx6yzdJxP47hbJGG9Ba4buQ9PF/tpXEjRtwtr0MMReTjNn3Vwsq6qgdvc8wKIVIroQ+aSrFj5xP8bolEHOsw+coA0Q0JVwKpV9Tzl/LrPbD9jPWDOiYDU5fV+PIr9yyknTsJkoBlMIIwUEbmJKEbJHYLx8nduv9uNtetm+Le3Z5olRPomedD31ROYKg+wyiIEIqZxjo2c2Urjmb4rXn2iBPZ6G61LNJGtMbhUPZm5n5iesAeu/31zLs4GDaXGRNyO6bLiPm3kYyNpPOXAQI2igcZQ9tOJzH27ID/96ncB/eifNqR8+hDK6q5xb0hyDqLkjR0xsI33IywcULKb9jvo3tZ4vVPsQGISIZc4lMSBT9LSd+4nqMUbC6pplfxdCkYNY5yIqIp29opTl1C3FvGZGGXDGyqUdG4SpIx+0g7VmcFw7gPP0qam8nzs79yOFcxXbVVQHGHl4RLZiJmZYmXNBKNLfF7ue7jm1d01vwnuuSikOhtJ1yuIpZKx+wwheDDE63Dn0aVkkAsPfWa3CdLxDzzqAcQKFsr0dGIQieY2MFXqV9WxDVHcTXQgDPBSplcaXAJnNoY1BijabvOqTjkC/ux3ADm1/8F1asKfeRxRCGHTqqwSJZo9nW5jNjzocQ+Wti3hmA3Y+OoggwaCMYoypNmKRuAvqBrswKEV0RuiDikIzZxNx8aR/wfbrC7/GGlfsAXru/P1iMjBR6M3Bbm0/rqZcTRJ9As5RUrKEauKAUVAs/dU8XxromAKl2GVMorLC9SslGthii1KM46nY6yr/sEfw6B1kx7MrUkZuGBrHbjb1UUftNJ+H4iyjrC9HmTCK9ECUeMa/JbiuP2OgTHyKQLeZRUsJVzyKyHZH7wXmElg8/1X2fWefA1bpWL3/AYUfiQ/qgSgSuNkeEIHeubSKOhzgLEeqx4ypCIO1CTj/HrKkZ5L0dfX7f852OmOCrGF1D3NamWH26wHYB9HBs1esMglmn2LxdWDK639vYemLGVMZbX99D7g+rtxtWDxy+raOOEcP/B4pt80cWbkn1AAAAAElFTkSuQmCC">
+<base target="_blank">
+<title>My DeviantArt Library</title>
+<style>
+:root {
+  --accent: #00e59b;
+  --bg: #0b0f12;
+  --panel: #12181c;
+  --card: #182025;
+  --line: #263038;
+  --text: #e8eef1;
+  --muted: #8d9aa3;
+  --danger: #ff6b78;
+  --col: 165px;
+  --safe-b: env(safe-area-inset-bottom, 0px);
+}
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+[hidden] { display: none !important; }
+html { color-scheme: dark; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.4 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; min-height: 100vh; overscroll-behavior-y: contain; }
+svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+svg .f { fill: currentColor; stroke: none; }
+button { font: inherit; color: inherit; }
+
+.top {
+  position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 8px;
+  padding: calc(10px + env(safe-area-inset-top, 0px)) 14px 10px; background: color-mix(in srgb, var(--bg) 90%, transparent);
+  backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom: 1px solid var(--line);
+}
+.brand { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.logo { position: relative; width: 34px; height: 34px; border-radius: 10px; background: #11161a; border: 2px solid var(--accent); color: var(--accent);
+  font-weight: 800; display: flex; align-items: center; justify-content: center; font-size: 18px; flex: none; }
+.logo span { position: absolute; top: -2px; right: 1px; font-size: 10px; color: #fff; }
+.bt { min-width: 0; }
+.bt h1 { margin: 0; font-size: 17px; line-height: 1.1; }
+.bt span { color: var(--muted); font-size: 12px; white-space: nowrap; }
+.tools { display: flex; gap: 4px; }
+.ib { width: 40px; height: 40px; border-radius: 12px; border: 1px solid var(--line); background: var(--panel); display: flex; align-items: center; justify-content: center; cursor: pointer; padding: 0; }
+.ib:active { transform: scale(.95); }
+.ib.on { border-color: var(--accent); color: var(--accent); }
+
+.searchbar { padding: 10px 14px 0; }
+.searchbar input { width: 100%; background: var(--panel); color: var(--text); border: 1px solid var(--line); border-radius: 12px; padding: 11px 14px; font-size: 16px; }
+.searchbar input:focus { outline: none; border-color: var(--accent); }
+
+.chips { display: flex; gap: 6px; overflow-x: auto; padding: 10px 14px 4px; scrollbar-width: none; }
+.chips::-webkit-scrollbar { display: none; }
+.chip { flex: none; display: inline-flex; align-items: center; gap: 6px; background: var(--panel); border: 1px solid var(--line); border-radius: 999px; padding: 7px 13px; font-size: 14px; cursor: pointer; white-space: nowrap; }
+.chip i { font-style: normal; color: var(--muted); font-size: 12px; }
+.chip.on { background: var(--accent); border-color: var(--accent); color: #07110d; font-weight: 650; }
+.chip.on i { color: #07110d; opacity: .7; }
+
+.tagrow { padding-top: 4px; }
+.tagrow:empty { display: none; }
+.tag { flex: none; background: none; border: 1px solid var(--line); color: #b9c4ca; border-radius: 999px; padding: 4px 10px; font-size: 13px; cursor: pointer; white-space: nowrap; }
+.tag i { font-style: normal; color: var(--muted); font-size: 11px; margin-left: 3px; }
+.tag.on { background: color-mix(in srgb, var(--accent) 25%, transparent); border-color: var(--accent); color: var(--text); }
+.tag.mine { border-color: color-mix(in srgb, var(--accent) 55%, var(--line)); color: var(--text); }
+.card .tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 5px; }
+.card .tags .tag { padding: 1px 7px; font-size: 11px; }
+.viewbar { display: flex; gap: 8px; padding: 8px 14px 2px; align-items: center; }
+.seg { display: flex; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 3px; gap: 2px; flex: 1; min-width: 0; overflow-x: auto; scrollbar-width: none; }
+.seg button { flex: 1; background: none; border: 0; color: var(--muted); font-size: 13px; padding: 7px 8px; border-radius: 7px; cursor: pointer; white-space: nowrap; }
+.seg button.on { background: var(--card); color: var(--text); box-shadow: inset 0 0 0 1px var(--accent); }
+.viewbar select { background: var(--panel); color: var(--text); border: 1px solid var(--line); border-radius: 10px; padding: 8px; font-size: 13px; }
+
+.banner { margin: 10px 14px 0; padding: 10px 12px; border-radius: 12px; background: var(--panel); border: 1px solid var(--line); font-size: 13px; color: #c9d3d8; display: flex; gap: 10px; align-items: center; }
+.banner button { margin-left: auto; background: none; border: 0; color: var(--accent); font-weight: 600; cursor: pointer; flex: none; }
+
+main { padding: 10px 14px calc(90px + var(--safe-b)); }
+.section { margin-bottom: 22px; }
+.section-h { display: flex; align-items: baseline; gap: 8px; margin: 8px 2px 10px; }
+.section-h h2 { margin: 0; font-size: 17px; }
+.section-h .n { color: var(--muted); font-size: 13px; }
+.section-h button { margin-left: auto; background: var(--panel); border: 1px solid var(--line); border-radius: 999px; padding: 5px 11px; font-size: 13px; cursor: pointer; display: flex; gap: 5px; align-items: center; }
+.section-h button svg { width: 14px; height: 14px; }
+.masonry { columns: var(--col); column-gap: 10px; }
+.card { position: relative; break-inside: avoid; margin: 0 0 10px; border-radius: 12px; overflow: hidden; background: var(--card); border: 1px solid var(--line); cursor: pointer; }
+.card img { display: block; width: 100%; height: auto; min-height: 70px; background: #151b1f; }
+.card .info { padding: 7px 9px 8px; }
+.card .t { font-weight: 600; font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.card .a { color: var(--muted); font-size: 12px; display: flex; gap: 6px; align-items: center; min-width: 0; }
+.card .a span:first-child { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.card .cat { margin-left: auto; background: #222c33; border-radius: 999px; padding: 1px 7px; font-size: 11px; color: #c9d3d8; white-space: nowrap; max-width: 50%; overflow: hidden; text-overflow: ellipsis; flex: none; }
+.card .more { position: absolute; top: 6px; right: 6px; width: 32px; height: 32px; border-radius: 10px; background: rgba(10,14,17,.72); border: 1px solid rgba(255,255,255,.14); color: #fff; display: flex; align-items: center; justify-content: center; padding: 0; cursor: pointer; }
+.card .more svg { width: 18px; height: 18px; }
+.card .chk { position: absolute; top: 6px; left: 6px; width: 26px; height: 26px; border-radius: 8px; border: 2px solid #fff; background: rgba(0,0,0,.35); display: none; align-items: center; justify-content: center; color: #07110d; }
+body.selecting .card .chk { display: flex; }
+.card.sel { box-shadow: 0 0 0 3px var(--accent); border-color: var(--accent); }
+.card.sel .chk { background: var(--accent); border-color: var(--accent); }
+.card .chk svg { width: 16px; height: 16px; stroke-width: 3; }
+.empty { text-align: center; color: var(--muted); padding: 70px 20px; }
+.empty h2 { color: var(--text); }
+
+.selbar { position: fixed; left: 10px; right: 10px; bottom: calc(10px + var(--safe-b)); z-index: 30; display: flex; gap: 6px; align-items: center; flex-wrap: wrap;
+  background: var(--panel); border: 1px solid var(--accent); border-radius: 14px; padding: 8px 10px; box-shadow: 0 10px 30px rgba(0,0,0,.5); }
+.selbar b { margin-right: auto; font-size: 14px; }
+.pill { background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 7px 12px; font-size: 13.5px; cursor: pointer; }
+.pill.accent { background: var(--accent); color: #07110d; border-color: var(--accent); font-weight: 650; }
+.pill.danger { color: #ffb3ba; }
+.pill.danger-solid { background: var(--danger); border-color: var(--danger); color: #1a0508; font-weight: 650; }
+
+.scrim { position: fixed; inset: 0; background: rgba(0,0,0,.55); z-index: 40; }
+.sheet { position: fixed; left: 0; right: 0; bottom: 0; z-index: 41; background: var(--panel); border-top: 1px solid var(--line); border-radius: 18px 18px 0 0;
+  padding: 8px 16px calc(16px + var(--safe-b)); max-height: 86vh; overflow-y: auto; animation: up .2s ease; }
+@media (min-width: 700px) { .sheet { left: 50%; right: auto; width: 520px; transform: translateX(-50%); bottom: 20px; border-radius: 18px; border: 1px solid var(--line); animation: none; } }
+@keyframes up { from { transform: translateY(40px); opacity: 0; } }
+.grab { width: 40px; height: 4px; border-radius: 4px; background: #3a454d; margin: 2px auto 10px; }
+.sheet h3 { margin: 0 0 2px; font-size: 17px; }
+.sheet .sub { color: var(--muted); font-size: 13px; margin-bottom: 12px; }
+.sheet .row { display: flex; gap: 8px; flex-wrap: wrap; margin: 10px 0; }
+.sheet .lbl { font-size: 11.5px; text-transform: uppercase; letter-spacing: .8px; color: var(--muted); font-weight: 700; margin: 14px 0 6px; }
+.sheet .preview { width: 100%; max-height: 38vh; object-fit: contain; border-radius: 12px; background: #0b0f12; display: block; }
+.sheet textarea, .sheet input[type=text] { width: 100%; background: var(--bg); color: var(--text); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; font: inherit; font-size: 16px; resize: vertical; }
+.sheet textarea:focus, .sheet input:focus { outline: none; border-color: var(--accent); }
+.sheet .chip.cur { background: var(--accent); color: #07110d; border-color: var(--accent); font-weight: 650; }
+.menu-list { display: flex; flex-direction: column; }
+.menu-list button { display: flex; align-items: center; gap: 12px; text-align: left; background: none; border: 0; padding: 13px 4px; border-bottom: 1px solid var(--line); font-size: 15px; cursor: pointer; }
+.menu-list button:last-child { border-bottom: 0; }
+.menu-list button small { color: var(--muted); display: block; font-size: 12.5px; }
+.menu-list svg { flex: none; color: var(--accent); }
+.cat-row { display: flex; gap: 6px; align-items: center; margin-bottom: 6px; }
+.cat-row input { flex: 1; }
+.cat-row .n { color: var(--muted); font-size: 12px; min-width: 22px; text-align: right; }
+
+.toast { position: fixed; left: 50%; bottom: calc(24px + var(--safe-b)); transform: translate(-50%, 20px); background: var(--panel); border: 1px solid var(--line);
+  border-left: 3px solid var(--accent); padding: 10px 16px; border-radius: 10px; opacity: 0; transition: opacity .2s, transform .2s; pointer-events: none; z-index: 60;
+  box-shadow: 0 10px 30px rgba(0,0,0,.5); font-size: 14px; max-width: 90vw; }
+.toast.show { opacity: 1; transform: translate(-50%, 0); }
+.toast.err { border-left-color: var(--danger); }
+.ro.ok { color: var(--accent); border-color: color-mix(in srgb, var(--accent) 50%, var(--line)); }
+.ro { display: inline-block; font-size: 11px; border: 1px solid var(--line); border-radius: 999px; padding: 1px 7px; color: var(--muted); margin-left: 6px; vertical-align: 2px; }
+
+@media (max-width: 480px) {
+  .logo { display: none; }
+  .tools { gap: 3px; }
+  .ib { width: 38px; height: 38px; border-radius: 11px; }
+  .bt h1 { font-size: 16px; white-space: nowrap; }
+  .bt span { display: block; overflow: hidden; text-overflow: ellipsis; }
+  .ro { margin-left: 0; margin-top: 2px; }
+}
+
+.banner a { color: var(--accent); }
+.empty.signin { padding-top: 60px; }
+.gbtn { display: inline-flex; align-items: center; gap: 10px; background: #fff; color: #1f1f1f; border: 0; border-radius: 999px; padding: 12px 22px; font-size: 16px; font-weight: 600; cursor: pointer; margin: 14px 0 8px; box-shadow: 0 2px 10px rgba(0,0,0,.35); }
+.gbtn svg { width: 20px; height: 20px; stroke: none; }
+.gbtn:active { transform: scale(.97); }
+.muted { color: var(--muted); font-size: 13px; }
+
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <div class="logo">B<span>✦</span></div>
+    <div class="bt"><h1>My Library</h1><span id="count">…</span></div>
+  </div>
+  <div class="tools">
+    <button class="ib" id="addBtn" aria-label="Add your own images" hidden><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></button>
+    <button class="ib" id="searchBtn" aria-label="Search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button>
+    <button class="ib" id="randomBtn" aria-label="Random"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="3"/><circle cx="9" cy="9" r="1.3" class="f"/><circle cx="15" cy="15" r="1.3" class="f"/><circle cx="15" cy="9" r="1.3" class="f"/><circle cx="9" cy="15" r="1.3" class="f"/></svg></button>
+    <button class="ib" id="playBtn" aria-label="Slideshow"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" class="f"/></svg></button>
+    <button class="ib" id="menuBtn" aria-label="Menu"><svg viewBox="0 0 24 24"><circle cx="5" cy="12" r="1.6" class="f"/><circle cx="12" cy="12" r="1.6" class="f"/><circle cx="19" cy="12" r="1.6" class="f"/></svg></button>
+  </div>
+</header>
+<div class="searchbar" id="searchbar" hidden><input type="search" id="q" placeholder="Search or type a tag… e.g. horse" autocomplete="off"></div>
+<nav class="chips" id="chips"></nav>
+<nav class="chips tagrow" id="tagrow"></nav>
+<div class="viewbar">
+  <div class="seg" id="viewSeg">
+    <button data-v="auto">Auto</button><button data-v="shuffle">Shuffle</button><button data-v="category">Categories</button><button data-v="artist">Artists</button>
+  </div>
+  <select id="sort" aria-label="Sort">
+    <option value="new">Newest</option><option value="old">Oldest</option><option value="artist">Artist A–Z</option><option value="title">Title A–Z</option>
+  </select>
+</div>
+<div class="banner" id="notice" hidden></div>
+<div class="banner" id="banner" hidden></div>
+<main id="grid"></main>
+
+<div class="selbar" id="selbar" hidden>
+  <b id="selN">0 selected</b>
+  <button class="pill" id="selMove">Move</button>
+  <button class="pill" id="selTag">Tag</button>
+  <button class="pill" id="selView">View</button>
+  <button class="pill danger" id="selRemove">Remove</button>
+  <button class="pill" id="selCancel">Done</button>
+</div>
+
+<div class="scrim" id="scrim" hidden></div>
+<div class="sheet" id="sheet" hidden role="dialog" aria-modal="true">
+  <div class="grab"></div>
+  <div id="sheetBody"></div>
+</div>
+<div class="toast" id="toast"></div>
+<input type="file" id="addFile" accept="image/*" multiple hidden>
+<script>window.BDA_BOOT = { mode: "google" };</script>
+<script>
+// DeviantArt / wixmp URL helpers shared by the content script and background worker.
+(function (root) {
+  function decodeJwt(token) {
+    try {
+      let p = token.split(".")[1].replace(/-/g, "+").replace(/_/g, "/");
+      while (p.length % 4) p += "=";
+      return JSON.parse(atob(p));
+    } catch (e) {
+      return null;
+    }
+  }
+
+  function isWixmp(url) {
+    return /(^|\.)wixmp\.com$/i.test(hostOf(url));
+  }
+
+  function hostOf(url) {
+    try { return new URL(url).hostname; } catch (e) { return ""; }
+  }
+
+  // Splits a wixmp URL into the original-file path and the transform part (if any).
+  // e.g. /f/<uuid>/<id>-<uuid>.png/v1/fill/w_400,h_300,q_70,strp/name-pre.jpg
+  function parseWixmp(url) {
+    let u;
+    try { u = new URL(url); } catch (e) { return null; }
+    if (!isWixmp(url)) return null;
+    const m = u.pathname.match(/^(\/(?:intermediary\/)?[fi]\/[^/]+\/[^/]+?)(?:\/v1\/(fill|fit|crop)\/([^/]+)\/([^/]+))?$/);
+    if (!m) return null;
+    const params = {};
+    if (m[3]) {
+      for (const part of m[3].split(",")) {
+        const i = part.indexOf("_");
+        if (i < 0) params[part] = true;
+        else params[part.slice(0, i)] = part.slice(i + 1);
+      }
+    }
+    const extMatch = m[1].match(/\.([a-z0-9]+)$/i);
+    return {
+      origin: u.origin,
+      base: m[1],
+      op: m[2] || null,
+      params,
+      fname: m[4] || null,
+      token: u.searchParams.get("token"),
+      ext: extMatch ? extMatch[1].toLowerCase() : null
+    };
+  }
+
+  // Returns the biggest, highest-quality version of a DeviantArt image URL that the
+  // URL's own access token allows. Non-wixmp URLs are returned unchanged.
+  function bestUrl(url) {
+    const info = parseWixmp(url);
+    if (!info || !info.op) return url; // not wixmp, or already the untransformed file
+
+    if (!info.token) {
+      // Old/unprotected files: the untransformed original is publicly reachable.
+      return info.origin + info.base;
+    }
+
+    const payload = decodeJwt(info.token);
+    const rule = payload && payload.obj && payload.obj[0] && payload.obj[0][0];
+    const num = (v) => (v ? parseInt(String(v).replace(/[^\d]/g, ""), 10) : NaN);
+    let maxW = rule ? num(rule.width) : NaN;
+    let maxH = rule ? num(rule.height) : NaN;
+    const curW = num(info.params.w);
+    const curH = num(info.params.h);
+
+    if (isNaN(maxW) && isNaN(maxH)) {
+      // No size limit in the token: keep the size, just bump quality.
+      if (isNaN(curW) || isNaN(curH)) return url;
+      maxW = curW; maxH = curH;
+    } else if (isNaN(maxH)) {
+      if (info.op === "crop" || isNaN(curW) || isNaN(curH)) return url;
+      maxH = Math.round((curH * maxW) / curW);
+    } else if (isNaN(maxW)) {
+      if (info.op === "crop" || isNaN(curW) || isNaN(curH)) return url;
+      maxW = Math.round((curW * maxH) / curH);
+    }
+
+    let fname = info.fname || "image.jpg";
+    fname = fname.replace(/-(?:pre|fullview|\d+[th]?)(\.[a-z0-9]+)$/i, "-fullview$1");
+    // PNG originals can be served as PNG (lossless) instead of a JPEG re-encode.
+    if (info.ext === "png") fname = fname.replace(/\.[a-z0-9]+$/i, ".png");
+    if (info.ext === "gif") fname = fname.replace(/\.[a-z0-9]+$/i, ".gif");
+
+    return `${info.origin}${info.base}/v1/fill/w_${maxW},h_${maxH},q_100/${fname}?token=${info.token}`;
+  }
+
+  // A smaller (but sharp) version for grids, e.g. ~500px wide. Falls back to the input URL.
+  function resized(url, targetW) {
+    const best = bestUrl(url);
+    const m = best.match(/\/v1\/fill\/w_(\d+),h_(\d+),q_100\//);
+    if (!m) return url;
+    const w = +m[1], h = +m[2];
+    if (w <= targetW) return best;
+    const nh = Math.max(1, Math.round((h * targetW) / w));
+    return best.replace(m[0], `/v1/fill/w_${targetW},h_${nh},q_85/`);
+  }
+
+  // Extension the downloaded file will have.
+  function guessExt(url) {
+    const info = parseWixmp(url);
+    if (info) {
+      if (info.fname) {
+        const m = info.fname.match(/\.([a-z0-9]+)$/i);
+        if (m) return m[1].toLowerCase();
+      }
+      if (info.ext) return info.ext;
+    }
+    const m = (url || "").split("?")[0].match(/\.([a-z0-9]{2,5})$/i);
+    return m ? m[1].toLowerCase() : "jpg";
+  }
+
+  // Parses https://www.deviantart.com/<artist>/art/<slug>-<id>
+  function parseDeviationUrl(href) {
+    let u;
+    try { u = new URL(href, "https://www.deviantart.com/"); } catch (e) { return null; }
+    if (!/deviantart\.com$/i.test(u.hostname)) return null;
+    let m = u.pathname.match(/^\/([^/]+)\/art\/(\d+)\/?$/);
+    let slug = "";
+    if (m) {
+      m = [m[0], m[1], "", m[2]];
+    } else {
+      m = u.pathname.match(/^\/([^/]+)\/art\/(.+)-(\d+)\/?$/);
+      if (!m) return null;
+      slug = m[2];
+    }
+    const artist = decodeURIComponent(m[1]);
+    const id = m[3];
+    const title = slug ? decodeURIComponent(slug).replace(/-+$/, "").replace(/-/g, " ") : id;
+    return { artist, id, title, url: u.origin + u.pathname };
+  }
+
+  function sanitize(part) {
+    return String(part || "")
+      .replace(/[\\/:*?"<>|\u0000-\u001f]+/g, " ")
+      .replace(/\s{2,}/g, " ")
+      .replace(/^[.\s]+|[.\s]+$/g, "")
+      .slice(0, 120) || "untitled";
+  }
+
+  function buildFilename(template, meta, ext) {
+    const tpl = (template || "DeviantArt/{artist}/{title} - {id}").trim();
+    const segments = tpl.split("/").map((seg) =>
+      sanitize(seg.replace(/\{(artist|title|id|date)\}/g, (_, k) => {
+        if (k === "date") return new Date().toISOString().slice(0, 10);
+        return meta && meta[k] ? meta[k] : (k === "id" ? "" : "unknown");
+      }).replace(/\s+-\s*$/, ""))
+    );
+    return segments.join("/") + "." + (ext || "jpg");
+  }
+
+  root.BDA_URL = { decodeJwt, isWixmp, parseWixmp, bestUrl, resized, guessExt, parseDeviationUrl, buildFilename, sanitize };
+})(typeof self !== "undefined" ? self : this);
+
+;
+// Quick tags + smart search, shared by the extension pages, the content script and the phone/tablet web app.
+// Typing "horse" finds deviations whose tags, title, artist, category or note contain a word starting
+// with "horse" (so "horses", "horseback" match too). "#horse" looks only at tags.
+(function (root) {
+  const norm = (t) => String(t || "").replace(/^#+/, "").trim().toLowerCase().replace(/\s+/g, " ").slice(0, 40);
+
+  function parse(text) {
+    const out = [];
+    for (const part of String(text || "").split(/[,#\n]+/)) {
+      const t = norm(part);
+      if (t && !out.includes(t)) out.push(t);
+    }
+    return out.slice(0, 30);
+  }
+
+  const tagsOf = (it) => {
+    const out = [];
+    for (const t of [].concat(it.tags || [], it.daTags || [])) { const n = norm(t); if (n && !out.includes(n)) out.push(n); }
+    return out;
+  };
+
+  const words = (s) => String(s || "").toLowerCase().split(/[^a-z0-9\u00c0-\uffef]+/).filter(Boolean);
+
+  function index(it) {
+    if (it.__ix && it.__ixStamp === (it.updatedAt || it.savedAt)) return it.__ix;
+    const tags = tagsOf(it);
+    const ix = {
+      tags,
+      tagWords: tags.flatMap(words),
+      all: words([it.title, it.artist, it.category, it.note].join(" ")).concat(tags.flatMap(words))
+    };
+    try {
+      Object.defineProperty(it, "__ix", { value: ix, enumerable: false, configurable: true, writable: true });
+      Object.defineProperty(it, "__ixStamp", { value: it.updatedAt || it.savedAt, enumerable: false, configurable: true, writable: true });
+    } catch (e) {}
+    return ix;
+  }
+
+  const stem = (t) => (t.length > 3 && t.endsWith("es") && !t.endsWith("ses") ? t.slice(0, -2) : t.length > 3 && t.endsWith("s") ? t.slice(0, -1) : t);
+
+  // Every word of the query must match (AND). "#tag" = tags only; "-word" excludes.
+  function matches(it, query) {
+    const q = String(query || "").trim().toLowerCase();
+    if (!q) return true;
+    const ix = index(it);
+    const tokens = q.match(/-?#?"[^"]+"|\S+/g) || [];
+    for (let tok of tokens) {
+      let neg = false, tagOnly = false;
+      if (tok.startsWith("-") && tok.length > 1) { neg = true; tok = tok.slice(1); }
+      if (tok.startsWith("#")) { tagOnly = true; tok = tok.slice(1); }
+      tok = tok.replace(/"/g, "").trim();
+      if (!tok) continue;
+      let hit;
+      if (tok.includes(" ")) {
+        const phrase = tok;
+        hit = ix.tags.some((t) => t.includes(phrase)) || (!tagOnly && [it.title, it.note].join(" ").toLowerCase().includes(phrase));
+      } else {
+        const s = stem(tok);
+        const pool = tagOnly ? ix.tagWords : ix.all;
+        hit = pool.some((w) => w.startsWith(s)) || (tagOnly && ix.tags.some((t) => t.startsWith(tok)));
+      }
+      if (hit === neg) return false;
+    }
+    return true;
+  }
+
+  // Most used tags; plural/singular variants ("horse"/"horses") are counted together.
+  function top(items, n = 24) {
+    const groups = new Map(); // stem -> {count, variants: Map}
+    for (const it of items) {
+      const seenStems = new Set();
+      for (const t of tagsOf(it)) {
+        const k = t.split(" ").map(stem).join(" ");
+        if (seenStems.has(k)) continue;
+        seenStems.add(k);
+        const g = groups.get(k) || { count: 0, variants: new Map() };
+        g.count++;
+        g.variants.set(t, (g.variants.get(t) || 0) + 1);
+        groups.set(k, g);
+      }
+    }
+    const out = [];
+    for (const g of groups.values()) {
+      const name = [...g.variants.entries()].sort((a, b) => b[1] - a[1] || a[0].length - b[0].length)[0][0];
+      out.push([name, g.count]);
+    }
+    return out.sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, n);
+  }
+
+  root.BDA_TAGS = { norm, parse, tagsOf, matches, top };
+})(typeof globalThis !== "undefined" ? globalThis : typeof self !== "undefined" ? self : this);
+
+;
+// Turning your own image files into Library items (used by the Library page and the phone/tablet web app).
+(function (root) {
+  const MAX_FULL = 2560;   // longest edge kept for the full image
+  const THUMB = 420;       // longest edge of the grid thumbnail
+  const KEEP_ORIGINAL_BYTES = 4 * 1024 * 1024;
+
+  function loadBitmap(blob) {
+    if (root.createImageBitmap) return createImageBitmap(blob).catch(() => viaImg(blob));
+    return viaImg(blob);
+  }
+  function viaImg(blob) {
+    return new Promise((resolve, reject) => {
+      const url = URL.createObjectURL(blob);
+      const img = new Image();
+      img.onload = () => { resolve(img); setTimeout(() => URL.revokeObjectURL(url), 1000); };
+      img.onerror = () => { URL.revokeObjectURL(url); reject(new Error("Not an image the browser can open")); };
+      img.src = url;
+    });
+  }
+  function draw(src, w, h) {
+    const c = document.createElement("canvas");
+    c.width = w; c.height = h;
+    const g = c.getContext("2d");
+    g.imageSmoothingQuality = "high";
+    g.drawImage(src, 0, 0, w, h);
+    return c;
+  }
+  const toBlob = (canvas, type, q) => new Promise((r) => canvas.toBlob((b) => r(b), type, q));
+
+  // -> { full: Blob, mime, thumb: dataURL, w, h, name }
+  async function prepare(file, name) {
+    if (!file || !/^image\//.test(file.type || "image/")) throw new Error("That isn't an image");
+    const bmp = await loadBitmap(file);
+    const w = bmp.width || bmp.naturalWidth, h = bmp.height || bmp.naturalHeight;
+    if (!w || !h) throw new Error("Couldn't read that image");
+    const scale = Math.min(1, MAX_FULL / Math.max(w, h));
+    let full = file, mime = file.type || "image/png";
+    const isGif = /gif/i.test(mime);
+    if ((scale < 1 && !isGif) || (file.size > KEEP_ORIGINAL_BYTES && !isGif) || !/^image\/(png|jpe?g|gif|webp)$/i.test(mime)) {
+      const fw = Math.round(w * scale), fh = Math.round(h * scale);
+      const canvas = draw(bmp, fw, fh);
+      const wantPng = /png/i.test(mime) && fw * fh < 1600 * 1600;
+      mime = wantPng ? "image/png" : "image/jpeg";
+      full = await toBlob(canvas, mime, 0.9);
+    }
+    const ts = Math.min(1, THUMB / Math.max(w, h));
+    const thumbCanvas = draw(bmp, Math.max(1, Math.round(w * ts)), Math.max(1, Math.round(h * ts)));
+    const thumb = thumbCanvas.toDataURL("image/jpeg", 0.74);
+    if (bmp.close) bmp.close();
+    return { full, mime, thumb, w: Math.round(w * scale), h: Math.round(h * scale), name: cleanTitle(name || file.name) };
+  }
+
+  function cleanTitle(n) {
+    n = String(n || "").replace(/\.[a-z0-9]{2,5}$/i, "").replace(/[_-]+/g, " ").trim();
+    if (!n || /^image$/i.test(n)) n = "My image " + new Date().toLocaleDateString();
+    return n.slice(0, 120);
+  }
+
+  function blobToBase64(blob) {
+    return new Promise((resolve, reject) => {
+      const r = new FileReader();
+      r.onload = () => resolve(String(r.result).split(",")[1] || "");
+      r.onerror = () => reject(r.error);
+      r.readAsDataURL(blob);
+    });
+  }
+  function base64ToBlob(b64, mime) {
+    const bin = atob(b64);
+    const a = new Uint8Array(bin.length);
+    for (let i = 0; i < bin.length; i++) a[i] = bin.charCodeAt(i);
+    return new Blob([a], { type: mime || "image/jpeg" });
+  }
+
+  const newId = () => "u" + Date.now().toString(36) + Math.random().toString(36).slice(2, 8);
+  const isUpload = (it) => !!(it && (it.upload || /^upload:/.test(it.url || "")));
+
+  root.BDA_IMAGES = { prepare, blobToBase64, base64ToBlob, newId, isUpload, cleanTitle };
+})(typeof globalThis !== "undefined" ? globalThis : typeof self !== "undefined" ? self : this);
+
+;
+// Library merge engine. Used by the extension AND pasted into the Google Apps Script,
+// so two copies of the Library (computer + cloud/phone) can be combined without losing anything.
+// Rules: newest edit of each deviation wins; deletions are remembered ("tombstones") so they
+// don't come back; the newest category list wins, plus any category still in use.
+(function (root) {
+  const TOMBSTONE_DAYS = 120;
+
+  function norm(lib) {
+    lib = lib && typeof lib === "object" ? lib : {};
+    return {
+      items: lib.items && typeof lib.items === "object" ? lib.items : {},
+      categories: Array.isArray(lib.categories) ? lib.categories : [],
+      categoriesAt: +lib.categoriesAt || 0,
+      deleted: lib.deleted && typeof lib.deleted === "object" ? lib.deleted : {}
+    };
+  }
+
+  const stamp = (it) => +(it && (it.updatedAt || it.savedAt)) || 0;
+
+  function merge(a, b) {
+    a = norm(a);
+    b = norm(b);
+    const out = { items: {}, categories: [], categoriesAt: 0, deleted: {} };
+
+    for (const src of [a.deleted, b.deleted]) {
+      for (const id in src) out.deleted[id] = Math.max(out.deleted[id] || 0, +src[id] || 0);
+    }
+
+    const ids = {};
+    for (const id in a.items) ids[id] = 1;
+    for (const id in b.items) ids[id] = 1;
+    for (const id in ids) {
+      const x = a.items[id], y = b.items[id];
+      const pick = !x ? y : !y ? x : (stamp(y) > stamp(x) ? y : x);
+      if (!pick || !pick.url) continue;
+      if (out.deleted[id] && out.deleted[id] >= stamp(pick)) continue; // deleted after its last edit
+      out.items[id] = pick;
+      delete out.deleted[id]; // saved again after being deleted
+    }
+
+    const newer = b.categoriesAt > a.categoriesAt ? b : a;
+    const seen = {};
+    for (const c of newer.categories) {
+      const name = String(c || "").trim();
+      if (name && !seen[name]) { seen[name] = 1; out.categories.push(name); }
+    }
+    for (const id in out.items) {
+      const c = out.items[id].category;
+      if (c && !seen[c]) { seen[c] = 1; out.categories.push(c); }
+    }
+    out.categoriesAt = Math.max(a.categoriesAt, b.categoriesAt);
+
+    const cutoff = Date.now() - TOMBSTONE_DAYS * 86400000;
+    for (const id in out.deleted) if (out.deleted[id] < cutoff) delete out.deleted[id];
+    return out;
+  }
+
+  // Cheap content fingerprint: changes whenever anything that matters changes.
+  function fingerprint(lib) {
+    lib = norm(lib);
+    const ids = Object.keys(lib.items).sort();
+    let s = lib.categories.join("\u0001") + "|" + lib.categoriesAt + "|";
+    for (const id of ids) {
+      const it = lib.items[id];
+      s += id + ":" + stamp(it) + ":" + (it.category || "") + ";";
+    }
+    s += "|" + Object.keys(lib.deleted).sort().map((id) => id + ":" + lib.deleted[id]).join(",");
+    let h = 2166136261;
+    for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); }
+    return (h >>> 0).toString(36) + "-" + ids.length;
+  }
+
+  root.BDA_MERGE = { merge, fingerprint, stamp, norm };
+})(typeof globalThis !== "undefined" ? globalThis : typeof self !== "undefined" ? self : this);
+
+;
+// Better DeviantArt — Google account helpers shared by the extension and the phone/tablet web page.
+// Your Library lives in your own free Firebase project (Google sign-in + Firestore database),
+// under users/<your Google account id>/..., which only you can read or write.
+(function (root) {
+  const SDK_VERSION = "10.12.2";
+
+  // base64url <-> JSON (used to put your (public) Firebase config in the phone link)
+  function enc(obj) {
+    const s = unescape(encodeURIComponent(JSON.stringify(obj)));
+    return btoa(s).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+  }
+  function dec(str) {
+    let s = String(str || "").replace(/-/g, "+").replace(/_/g, "/");
+    while (s.length % 4) s += "=";
+    return JSON.parse(decodeURIComponent(escape(atob(s))));
+  }
+
+  // Accepts the snippet Firebase shows you ("const firebaseConfig = { apiKey: ... }"), JSON, or a phone link.
+  function parseConfig(text) {
+    text = String(text || "").trim();
+    if (!text) throw new Error("Paste your Firebase config first");
+    const m = /[?&]c=([A-Za-z0-9_-]+)/.exec(text);
+    if (m) { try { return clean(dec(m[1])); } catch (e) {} }
+    const pick = (k) => {
+      const r = new RegExp("[\"']?" + k + "[\"']?\\s*:\\s*[\"'`]([^\"'`]+)[\"'`]").exec(text);
+      return r ? r[1].trim() : "";
+    };
+    return clean({ apiKey: pick("apiKey"), authDomain: pick("authDomain"), projectId: pick("projectId"), appId: pick("appId"), messagingSenderId: pick("messagingSenderId") });
+  }
+  function clean(c) {
+    c = c || {};
+    const out = {
+      apiKey: String(c.apiKey || c.k || "").trim(),
+      authDomain: String(c.authDomain || c.d || "").trim(),
+      projectId: String(c.projectId || c.p || "").trim(),
+      appId: String(c.appId || c.a || "").trim()
+    };
+    if (c.messagingSenderId || c.s) out.messagingSenderId = String(c.messagingSenderId || c.s);
+    // test hooks (never set in normal use)
+    for (const k of ["fsBase", "tokenBase", "sdkBase"]) if (c[k]) out[k] = String(c[k]);
+    if (!/^AIza[0-9A-Za-z_-]{20,}$/.test(out.apiKey) && !out.fsBase) throw new Error("That config is missing a valid apiKey");
+    if (!/^[a-z0-9-]{4,40}$/.test(out.projectId)) throw new Error("That config is missing the projectId");
+    if (!out.authDomain) out.authDomain = out.projectId + ".firebaseapp.com";
+    return out;
+  }
+
+  function cleanSiteUrl(u) {
+    u = String(u || "").trim();
+    if (!u) throw new Error("Paste the address of your Library page");
+    if (!/^https?:\/\//i.test(u)) u = "https://" + u;
+    const x = new URL(u);
+    if (x.protocol !== "https:" && !/^(localhost|127\.0\.0\.1)$/.test(x.hostname)) throw new Error("The page address must start with https://");
+    let path = x.pathname.replace(/index\.html?$/i, "");
+    if (!path.endsWith("/")) path += "/";
+    return x.origin + path;
+  }
+
+  // The link you open on your phone/tablet. The config in it is not secret (Firebase configs are
+  // public by design) — your data is protected by Google sign-in + the security rules.
+  function phoneLink(siteUrl, cfg) {
+    const c = { k: cfg.apiKey, d: cfg.authDomain, p: cfg.projectId, a: cfg.appId };
+    for (const k of ["fsBase", "tokenBase", "sdkBase"]) if (cfg[k]) c[k] = cfg[k];
+    return siteUrl + "?c=" + enc(c);
+  }
+
+  const docKey = (id) => String(id).replace(/[^A-Za-z0-9_\-.~:@+]/g, "_").slice(0, 150);
+
+  const RULES = `rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /users/{uid}/{document=**} {
+      allow read, write: if request.auth != null && request.auth.uid == uid;
+    }
+  }
+}`;
+
+  const CHUNK = 900000; // characters of base64 per Firestore document (limit is ~1 MB)
+
+  root.BDA_GSYNC = { SDK_VERSION, enc, dec, parseConfig, clean, cleanSiteUrl, phoneLink, docKey, RULES, CHUNK };
+})(typeof globalThis !== "undefined" ? globalThis : typeof self !== "undefined" ? self : this);
+
+;
+// Better DeviantArt — image viewer (used on DeviantArt pages and in the Library page).
+(function (root) {
+  const ICON = {
+    close: '<path d="M6 6l12 12M18 6L6 18"/>',
+    prev: '<path d="M15 5l-7 7 7 7"/>',
+    next: '<path d="M9 5l7 7-7 7"/>',
+    plus: '<path d="M12 5v14M5 12h14"/>',
+    minus: '<path d="M5 12h14"/>',
+    fit: '<path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/>',
+    width: '<path d="M3 12h18M7 8l-4 4 4 4M17 8l4 4-4 4"/>',
+    rotate: '<path d="M20 11a8 8 0 10-2.3 5.7"/><path d="M20 4v7h-7"/>',
+    bg: '<circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 010 16z" fill="currentColor"/>',
+    play: '<path d="M8 5v14l11-7z" fill="currentColor"/>',
+    pause: '<path d="M7 5h3v14H7zM14 5h3v14h-3z" fill="currentColor"/>',
+    full: '<path d="M4 9V4h5M15 4h5v5M20 15v5h-5M9 20H4v-5"/>',
+    save: '<path d="M6 4h12v16l-6-4-6 4z"/>',
+    saved: '<path d="M6 4h12v16l-6-4-6 4z" fill="currentColor"/>',
+    download: '<path d="M12 3v12m0 0l-5-5m5 5l5-5M4 19h16"/>',
+    open: '<path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 01-1 1H5a1 1 0 01-1-1V7a1 1 0 011-1h5"/>',
+    page: '<rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/>'
+  };
+  const svg = (n) => `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICON[n]}</svg>`;
+
+  const BGS = ["dark", "black", "light", "checker"];
+  const hasExt = typeof chrome !== "undefined" && chrome.storage && chrome.storage.local;
+  const prefGet = (key, def, cb) => {
+    if (hasExt) return chrome.storage.local.get({ [key]: def }, (v) => cb(v[key]));
+    try { const v = localStorage.getItem("bda." + key); cb(v == null ? def : JSON.parse(v)); } catch (e) { cb(def); }
+  };
+  const prefSet = (key, val) => {
+    if (hasExt) return chrome.storage.local.set({ [key]: val });
+    try { localStorage.setItem("bda." + key, JSON.stringify(val)); } catch (e) {}
+  };
+
+  const CSS = `
+  :host { all: initial; }
+  * { box-sizing: border-box; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  .v { position: fixed; inset: 0; width: 100vw; height: 100vh; overflow: hidden; color: #e9f0f3; user-select: none; touch-action: none; }
+  .v[data-bg=dark] { background: rgba(8,10,12,.96); }
+  .v[data-bg=black] { background: #000; }
+  .v[data-bg=light] { background: #eef1f3; }
+  .v[data-bg=checker] { background: #fff repeating-conic-gradient(#d6dadd 0 25%, #fff 0 50%) 0 0 / 24px 24px; }
+  .stage { position: absolute; inset: 0; cursor: grab; }
+  .v.dragging .stage { cursor: grabbing; }
+  .v.can-zoom .stage.on-img { cursor: zoom-in; }
+  .v.zoomed .stage.on-img { cursor: zoom-out; }
+  .v.dragging .stage.on-img { cursor: grabbing; }
+  .frame { position: absolute; left: 0; top: 0; transform-origin: 0 0; will-change: transform; }
+  .frame.anim { transition: transform .22s cubic-bezier(.2,.8,.2,1); }
+  .frame.anim-fast { transition: transform .08s linear; }
+  .pic { position: absolute; transform-origin: 50% 50%; max-width: none; -webkit-user-drag: none; image-rendering: auto; box-shadow: 0 10px 50px rgba(0,0,0,.45); }
+  .v.pixel .pic { image-rendering: pixelated; }
+  .ui { transition: opacity .25s; }
+  .v.idle .ui { opacity: 0; pointer-events: none; }
+  .v.idle { cursor: none; }
+  .v.idle .stage { cursor: none; }
+  .top { position: absolute; left: 0; right: 0; top: 0; display: flex; align-items: flex-start; justify-content: space-between; gap: 16px;
+    padding: 12px 14px 26px; background: linear-gradient(rgba(0,0,0,.65), transparent); pointer-events: none; }
+  .top > * { pointer-events: auto; }
+  .meta { min-width: 0; text-shadow: 0 1px 3px #000; }
+  .meta .t { font-size: 15px; font-weight: 650; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 60vw; color: #fff; text-decoration: none; display: block; }
+  .meta a.t:hover { text-decoration: underline; }
+  .meta .a { font-size: 12.5px; color: #c4ced3; margin-top: 2px; }
+  .meta .a b { color: var(--a); font-weight: 600; }
+  .right { display: flex; align-items: center; gap: 10px; font-size: 12.5px; color: #c4ced3; text-shadow: 0 1px 3px #000; white-space: nowrap; }
+  .pill { background: rgba(0,0,0,.45); border: 1px solid rgba(255,255,255,.12); padding: 3px 9px; border-radius: 999px; }
+  .btn { display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; border-radius: 10px;
+    border: 1px solid transparent; background: transparent; color: #e9f0f3; cursor: pointer; position: relative; padding: 0; flex: none; }
+  .btn:hover { background: rgba(255,255,255,.1); }
+  a.btn { text-decoration: none; }
+  a.btn[hidden] { display: none; }
+  .btn.on { color: var(--a); }
+  .btn:focus-visible { outline: 2px solid var(--a); }
+  .btn[data-tip]:hover::after { content: attr(data-tip); position: absolute; bottom: calc(100% + 10px); left: 50%; transform: translateX(-50%);
+    white-space: nowrap; background: #0b0f12; color: #e9f0f3; font-size: 12px; padding: 5px 8px; border-radius: 6px; border: 1px solid rgba(255,255,255,.12); pointer-events: none; }
+  .top .btn[data-tip]:hover::after { bottom: auto; top: calc(100% + 8px); left: auto; right: 0; transform: none; }
+  .close { background: rgba(0,0,0,.45); border-color: rgba(255,255,255,.12); }
+  .bar { position: absolute; left: 50%; bottom: 16px; transform: translateX(-50%); display: flex; align-items: center; gap: 2px;
+    background: rgba(18,23,27,.92); border: 1px solid rgba(255,255,255,.1); border-radius: 14px; padding: 5px; box-shadow: 0 8px 30px rgba(0,0,0,.4);
+    backdrop-filter: blur(10px); max-width: calc(100vw - 20px); overflow-x: auto; scrollbar-width: none; }
+  .sep { width: 1px; height: 22px; background: rgba(255,255,255,.12); margin: 0 4px; flex: none; }
+  .pct { min-width: 54px; height: 36px; border: 0; background: transparent; color: #cfd8dc; font-size: 12.5px; cursor: pointer; border-radius: 8px; font-variant-numeric: tabular-nums; }
+  .pct:hover { background: rgba(255,255,255,.1); }
+  .nav { position: absolute; top: 50%; transform: translateY(-50%); width: 48px; height: 72px; border-radius: 12px; background: rgba(0,0,0,.35);
+    border: 1px solid rgba(255,255,255,.08); color: #fff; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+  .nav:hover { background: var(--a); color: #0b0f12; }
+  .nav svg { width: 26px; height: 26px; }
+  .nav.prev { left: 12px; } .nav.next { right: 12px; }
+  .nav[hidden] { display: none; }
+  .spin { position: absolute; right: 18px; bottom: 74px; width: 22px; height: 22px; border-radius: 50%; border: 3px solid rgba(255,255,255,.2);
+    border-top-color: var(--a); animation: sp .8s linear infinite; opacity: 0; transition: opacity .2s; pointer-events: none; }
+  .v.loading .spin { opacity: 1; }
+  @keyframes sp { to { transform: rotate(360deg); } }
+  .mini { position: absolute; right: 14px; bottom: 74px; border: 1px solid rgba(255,255,255,.25); background: rgba(0,0,0,.55); border-radius: 6px; overflow: hidden; cursor: pointer; display: none; }
+  .mini.show { display: block; }
+  .mini img { display: block; width: 100%; height: 100%; object-fit: fill; opacity: .75; }
+  .mini .vp { position: absolute; border: 2px solid var(--a); box-shadow: 0 0 0 999px rgba(0,0,0,.35); border-radius: 2px; pointer-events: none; }
+  .prog { position: absolute; left: 0; top: 0; height: 3px; width: 0; background: var(--a); opacity: 0; }
+  .v.playing .prog { opacity: 1; }
+  .msg { position: absolute; left: 50%; bottom: 76px; transform: translateX(-50%); background: #0b0f12; border: 1px solid rgba(255,255,255,.12);
+    border-left: 3px solid var(--a); padding: 8px 13px; border-radius: 8px; font-size: 13px; opacity: 0; transition: opacity .2s; pointer-events: none; white-space: nowrap; }
+  .msg.show { opacity: 1; }
+  .msg.err { border-left-color: #ff5d6c; }
+  .v[data-bg=light] .meta .t, .v[data-bg=checker] .meta .t { color: #fff; }
+  @media (max-width: 640px) { .nav { display: none; } .bar .opt { display: none; } .meta .t { max-width: 52vw; } }
+  @media (pointer: coarse) { .bar .fine { display: none; } .btn { width: 42px; height: 42px; } }
+  .bar { bottom: calc(16px + env(safe-area-inset-bottom, 0px)); }
+  .top { padding-top: calc(12px + env(safe-area-inset-top, 0px)); }
+  `;
+
+  let active = null;
+
+  class Viewer {
+    constructor(opts) {
+      this.items = opts.items.filter((it) => it && it.src);
+      this.index = Math.max(0, Math.min(opts.index || 0, this.items.length - 1));
+      this.prefs = Object.assign({ zoomMode: "fit", autoHideUI: true, backdropClose: true, slideshowSeconds: 5, accent: "#00e59b" }, opts.prefs || {});
+      this.actions = opts.actions || {};
+      this.onClose = opts.onClose;
+      this.baseMode = this.prefs.zoomMode;
+      this.st = { s: 1, x: 0, y: 0, rot: 0, W: 1, H: 1, mode: "fit" };
+      this.token = 0;
+      this.pointers = new Map();
+      this._build();
+      this.show(this.index);
+    }
+
+    _build() {
+      const host = (this.host = document.createElement("div"));
+      host.style.cssText = "position:fixed;inset:0;z-index:2147483647;";
+      host.setAttribute("data-bda-viewer", "");
+      const sh = (this.shadow = host.attachShadow({ mode: "open" }));
+      const multi = this.items.length > 1;
+      sh.innerHTML = `<style>${CSS}<\/style>
+      <div class="v" data-bg="dark" style="--a:${this.prefs.accent}">
+        <div class="stage"><div class="frame"><img class="pic" alt="" draggable="false"></div></div>
+        <div class="prog"></div>
+        <div class="top ui">
+          <div class="meta"><a class="t" target="_blank" rel="noopener"></a><div class="a"></div></div>
+          <div class="right"><span class="pill res"></span><span class="pill count"${multi ? "" : " hidden"}></span>
+            <button class="btn close" data-act="close" data-tip="Close (Esc)">${svg("close")}</button></div>
+        </div>
+        <button class="nav prev ui" data-act="prev" aria-label="Previous"${multi ? "" : " hidden"}>${svg("prev")}</button>
+        <button class="nav next ui" data-act="next" aria-label="Next"${multi ? "" : " hidden"}>${svg("next")}</button>
+        <div class="mini ui"><img alt=""><div class="vp"></div></div>
+        <div class="spin"></div>
+        <div class="msg"></div>
+        <div class="bar ui">
+          ${multi ? `<button class="btn fine" data-act="prev" data-tip="Previous (←)">${svg("prev")}</button>` : ""}
+          <button class="btn fine" data-act="out" data-tip="Zoom out (−)">${svg("minus")}</button>
+          <button class="pct" data-act="pct" title="Toggle 100% / fit">100%</button>
+          <button class="btn fine" data-act="in" data-tip="Zoom in (+)">${svg("plus")}</button>
+          <span class="sep"></span>
+          <button class="btn" data-act="fit" data-tip="Fit screen (0)">${svg("fit")}</button>
+          <button class="btn opt" data-act="width" data-tip="Fill width (W)">${svg("width")}</button>
+          <button class="btn opt" data-act="rotate" data-tip="Rotate (R)">${svg("rotate")}</button>
+          <button class="btn opt" data-act="bg" data-tip="Background (B)">${svg("bg")}</button>
+          ${multi ? `<button class="btn" data-act="play" data-tip="Slideshow (Space)">${svg("play")}</button>` : ""}
+          <button class="btn opt" data-act="full" data-tip="Fullscreen (F)">${svg("full")}</button>
+          <span class="sep"></span>
+          ${this.actions.save ? `<button class="btn" data-act="save" data-tip="Save to Library (S)">${svg("save")}</button>` : ""}
+          ${this.actions.download ? `<button class="btn" data-act="download" data-tip="${this.prefs.downloadLabel || "Download"} (D)">${svg("download")}</button>` : ""}
+          ${this.prefs.noImageLink ? "" : `<a class="btn" data-link="img" target="_blank" rel="noopener" data-tip="Open image in new tab (O)">${svg("open")}</a>`}
+          <a class="btn" data-link="page" target="_blank" rel="noopener" data-tip="Open deviation page (Enter)">${svg("page")}</a>
+          ${multi ? `<button class="btn fine" data-act="next" data-tip="Next (→)">${svg("next")}</button>` : ""}
+        </div>
+      </div>`;
+      const q = (s) => sh.querySelector(s);
+      this.v = q(".v"); this.stage = q(".stage"); this.frame = q(".frame"); this.pic = q(".pic");
+      this.elTitle = q(".meta .t"); this.elArtist = q(".meta .a"); this.elRes = q(".res"); this.elCount = q(".count");
+      this.elPct = q(".pct"); this.mini = q(".mini"); this.miniImg = q(".mini img"); this.miniVp = q(".mini .vp");
+      this.prog = q(".prog"); this.msgEl = q(".msg");
+
+      prefGet("viewerBg", "dark", (bg) => { if (BGS.includes(bg)) this.v.dataset.bg = bg; });
+
+      document.documentElement.appendChild(host);
+      this._prevOverflow = document.documentElement.style.getPropertyValue("overflow");
+      this._prevOverflowPrio = document.documentElement.style.getPropertyPriority("overflow");
+      document.documentElement.style.setProperty("overflow", "hidden", "important");
+
+      // events
+      this.v.addEventListener("click", (e) => {
+        const b = e.target.closest("[data-act]");
+        if (b) { e.stopPropagation(); this.act(b.dataset.act); }
+      });
+      this.v.addEventListener("wheel", (e) => this._wheel(e), { passive: false });
+      this.stage.addEventListener("pointerdown", (e) => this._down(e));
+      this.stage.addEventListener("pointermove", (e) => this._move(e));
+      this.stage.addEventListener("pointerup", (e) => this._up(e));
+      this.stage.addEventListener("pointercancel", (e) => this._up(e, true));
+      this.v.addEventListener("pointermove", (e) => { if (e.pointerType === "mouse") this._wake(); }, { passive: true });
+      this.v.addEventListener("pointerdown", (e) => { if (e.pointerType !== "touch" || e.target.closest(".ui")) this._wake(); }, { passive: true });
+      this.mini.addEventListener("pointerdown", (e) => this._miniNav(e));
+      this.mini.addEventListener("pointermove", (e) => { if (e.buttons & 1) this._miniNav(e); });
+      this._onKey = (e) => this._key(e);
+      this._onResize = () => this._applyMode(this.st.mode === "free" ? "fit" : this.st.mode, false);
+      window.addEventListener("keydown", this._onKey, true);
+      window.addEventListener("resize", this._onResize);
+      this._wake();
+    }
+
+    // ---------------------------------------------------------------- loading
+    show(i) {
+      if (!this.items.length) return;
+      this.index = (i + this.items.length) % this.items.length;
+      const it = this.items[this.index];
+      const token = ++this.token;
+      this.st.rot = 0;
+      this.v.classList.add("loading");
+      this.elTitle.textContent = it.title || "Untitled";
+      if (it.url) this.elTitle.href = it.url; else this.elTitle.removeAttribute("href");
+      this._setLink("page", it.url);
+      this._setLink("img", /^(https?|blob):/.test(it.src || "") ? it.src : "");
+      this.elArtist.innerHTML = "";
+      if (it.artist) { this.elArtist.append("by "); const b = document.createElement("b"); b.textContent = it.artist; this.elArtist.append(b); }
+      this.elCount.textContent = `${this.index + 1} / ${this.items.length}`;
+      this.elRes.textContent = "…";
+      this._refreshSaved();
+
+      const best = it.best || (root.BDA_URL ? root.BDA_URL.bestUrl(it.src) : it.src);
+      this.current = { it, best, shown: it.src };
+      let first = true;
+      const low = new Image();
+      low.onload = () => {
+        if (token !== this.token) return;
+        if (!first) return;
+        this._setImage(it.src, low.naturalWidth, low.naturalHeight, true);
+      };
+      low.src = it.src;
+
+      const finish = () => { if (token === this.token) { this.v.classList.remove("loading"); this._preload(); } };
+      const loadHi = (url) => {
+        const hi = new Image();
+        hi.onload = () => {
+          if (token !== this.token) return;
+          first = false;
+          this.current.best = url;
+          this._setImage(url, hi.naturalWidth, hi.naturalHeight, false);
+          this.current.shown = url;
+          this._setLink("img", /^(https?|blob):/.test(url) ? url : "");
+          finish();
+        };
+        hi.onerror = () => { if (token === this.token) { this.elRes.textContent = "full-res unavailable"; finish(); } };
+        hi.src = url;
+      };
+      if (typeof it.load === "function") {
+        // e.g. your own uploaded images: the full file is fetched on demand
+        Promise.resolve().then(() => it.load()).then((url) => {
+          if (token !== this.token) return;
+          if (url) loadHi(url); else { this.elRes.textContent = "preview only"; finish(); }
+        }).catch(() => { if (token === this.token) { this.elRes.textContent = "full image unavailable"; finish(); } });
+      } else if (best && best !== it.src) {
+        loadHi(best);
+      } else {
+        low.addEventListener("load", finish, { once: true });
+        low.addEventListener("error", finish, { once: true });
+      }
+      if (this.playing) this._restartProgress();
+    }
+
+    _setImage(src, W, H, isPlaceholder) {
+      const st = this.st;
+      const sameItem = this.pic.dataset.item === String(this.index);
+      const oldW = st.W;
+      this.pic.src = src;
+      this.miniImg.src = src;
+      this.pic.dataset.item = String(this.index);
+      st.W = W || 1; st.H = H || 1;
+      this.pic.style.width = st.W + "px";
+      this.pic.style.height = st.H + "px";
+      if (!isPlaceholder) this.elRes.textContent = `${W} × ${H}`;
+      this._layoutFrame();
+      if (sameItem && st.mode === "free" && oldW > 1) {
+        // Keep the same on-screen size when the sharper image arrives.
+        st.s = st.s * (oldW / st.W);
+        this._render();
+      } else {
+        this._applyMode(sameItem && st.mode !== "free" ? st.mode : this.baseMode, false, isPlaceholder);
+      }
+    }
+
+    _preload() {
+      if (this.items.length < 2) return;
+      for (const d of [1, -1]) {
+        const it = this.items[(this.index + d + this.items.length) % this.items.length];
+        if (typeof it.load === "function") continue;
+        const best = it.best || (root.BDA_URL ? root.BDA_URL.bestUrl(it.src) : it.src);
+        const im = new Image(); im.src = best;
+      }
+    }
+
+    // ---------------------------------------------------------------- geometry
+    get ew() { return this.st.rot % 2 ? this.st.H : this.st.W; }
+    get eh() { return this.st.rot % 2 ? this.st.W : this.st.H; }
+
+    _layoutFrame() {
+      const st = this.st;
+      this.frame.style.width = this.ew + "px";
+      this.frame.style.height = this.eh + "px";
+      this.pic.style.left = (this.ew - st.W) / 2 + "px";
+      this.pic.style.top = (this.eh - st.H) / 2 + "px";
+      this.pic.style.transform = `rotate(${st.rot * 90}deg)`;
+    }
+
+    _fitScale(uncapped) {
+      const vw = innerWidth, vh = innerHeight;
+      const f = Math.min((vw - 40) / this.ew, (vh - 130) / this.eh);
+      return uncapped ? f : Math.min(f, 1);
+    }
+
+    _applyMode(mode, animate, uncapped) {
+      const st = this.st, vw = innerWidth, vh = innerHeight;
+      if (mode === "width") {
+        st.s = (vw - 24) / this.ew;
+        st.x = (vw - this.ew * st.s) / 2;
+        st.y = this.eh * st.s > vh ? 60 : (vh - this.eh * st.s) / 2;
+      } else if (mode === "actual") {
+        st.s = 1;
+        st.x = (vw - this.ew) / 2;
+        st.y = (vh - this.eh) / 2;
+      } else {
+        mode = "fit";
+        st.s = this._fitScale(uncapped);
+        st.x = (vw - this.ew * st.s) / 2;
+        st.y = (vh - this.eh * st.s) / 2 - 8;
+      }
+      st.mode = mode;
+      this._clamp();
+      this._render(animate ? "anim" : null);
+    }
+
+    _clamp() {
+      const st = this.st, vw = innerWidth, vh = innerHeight;
+      const dw = this.ew * st.s, dh = this.eh * st.s;
+      const m = 40;
+      if (dw <= vw) st.x = Math.min(Math.max(st.x, 0), vw - dw);
+      else st.x = Math.min(m, Math.max(vw - dw - m, st.x));
+      if (dh <= vh) st.y = Math.min(Math.max(st.y, 0), vh - dh);
+      else st.y = Math.min(m + 40, Math.max(vh - dh - m - 40, st.y));
+    }
+
+    _render(anim) {
+      const st = this.st;
+      this.frame.classList.remove("anim", "anim-fast");
+      if (anim) {
+        void this.frame.offsetWidth;
+        this.frame.classList.add(anim);
+        clearTimeout(this._animT);
+        this._animT = setTimeout(() => this.frame.classList.remove("anim", "anim-fast"), 260);
+      }
+      this.frame.style.transform = `translate(${st.x}px, ${st.y}px) scale(${st.s})`;
+      this.elPct.textContent = Math.round(st.s * 100) + "%";
+      this.v.classList.toggle("pixel", st.s >= 2.5);
+      const fit = this._fitScale(true);
+      this.v.classList.toggle("zoomed", st.s > Math.min(fit, 1) * 1.02 && (this.ew * st.s > innerWidth || this.eh * st.s > innerHeight));
+      this.v.classList.toggle("can-zoom", !this.v.classList.contains("zoomed"));
+      this._renderMini();
+    }
+
+    _renderMini() {
+      const st = this.st, vw = innerWidth, vh = innerHeight;
+      const dw = this.ew * st.s, dh = this.eh * st.s;
+      const show = (dw > vw + 2 || dh > vh + 2) && st.rot === 0;
+      this.mini.classList.toggle("show", show);
+      if (!show) return;
+      const maxW = 160, maxH = 120;
+      const k = Math.min(maxW / this.ew, maxH / this.eh);
+      const mw = this.ew * k, mh = this.eh * k;
+      this.mini.style.width = mw + "px";
+      this.mini.style.height = mh + "px";
+      const left = Math.max(0, -st.x / st.s) * k, top = Math.max(0, -st.y / st.s) * k;
+      const w = Math.min(this.ew, vw / st.s) * k, h = Math.min(this.eh, vh / st.s) * k;
+      Object.assign(this.miniVp.style, { left: left + "px", top: top + "px", width: Math.min(w, mw - left) + "px", height: Math.min(h, mh - top) + "px" });
+    }
+
+    _miniNav(e) {
+      e.preventDefault(); e.stopPropagation();
+      const r = this.mini.getBoundingClientRect();
+      const fx = (e.clientX - r.left) / r.width, fy = (e.clientY - r.top) / r.height;
+      const st = this.st;
+      st.x = innerWidth / 2 - fx * this.ew * st.s;
+      st.y = innerHeight / 2 - fy * this.eh * st.s;
+      st.mode = "free";
+      this._clamp(); this._render();
+    }
+
+    zoomTo(ns, cx = innerWidth / 2, cy = innerHeight / 2, anim) {
+      const st = this.st;
+      ns = Math.min(24, Math.max(0.03, ns));
+      st.x = cx - ((cx - st.x) * ns) / st.s;
+      st.y = cy - ((cy - st.y) * ns) / st.s;
+      st.s = ns;
+      st.mode = "free";
+      this._clamp();
+      this._render(anim);
+    }
+
+    pan(dx, dy, anim) {
+      this.st.x += dx; this.st.y += dy; this.st.mode = "free";
+      this._clamp(); this._render(anim);
+    }
+
+    _pointOnImage(x, y) {
+      const r = this.frame.getBoundingClientRect();
+      return x >= r.left && x <= r.right && y >= r.top && y <= r.bottom;
+    }
+
+    _toggleZoomAt(x, y) {
+      const st = this.st;
+      const fit = this._fitScale(false);
+      if (this.v.classList.contains("zoomed") || st.s > fit * 1.05) {
+        this._applyMode("fit", true);
+      } else {
+        const target = this.ew * 1 > innerWidth || this.eh * 1 > innerHeight ? 1 : Math.max(2, fit * 2.5);
+        this.zoomTo(Math.max(target, st.s * 2), x, y, "anim");
+      }
+    }
+
+    // ---------------------------------------------------------------- input
+    _wheel(e) {
+      if (e.target.closest(".bar, .top")) return;
+      e.preventDefault();
+      let dy = e.deltaY, dx = e.deltaX;
+      if (e.deltaMode === 1) { dy *= 33; dx *= 33; } else if (e.deltaMode === 2) { dy *= innerHeight; dx *= innerWidth; }
+      if (!e.ctrlKey && Math.abs(dx) > Math.abs(dy) * 1.5) { this.pan(-dx, 0); return; }
+      if (e.shiftKey && !e.ctrlKey) { this.pan(-dy, 0); return; }
+      const k = e.ctrlKey ? 0.012 : 0.0022;
+      const f = Math.min(1.6, Math.max(0.62, Math.exp(-dy * k)));
+      this.zoomTo(this.st.s * f, e.clientX, e.clientY, "anim-fast");
+    }
+
+    _down(e) {
+      if (e.button !== 0 && e.pointerType === "mouse") return;
+      this._stopInertia();
+      this.stage.setPointerCapture(e.pointerId);
+      this.pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      if (this.pointers.size === 1) {
+        this.drag = { x0: e.clientX, y0: e.clientY, sx: this.st.x, sy: this.st.y, t0: performance.now(), moved: false,
+          onImg: this._pointOnImage(e.clientX, e.clientY), hist: [{ x: e.clientX, y: e.clientY, t: performance.now() }] };
+      } else if (this.pointers.size === 2) {
+        const [a, b] = [...this.pointers.values()];
+        this.pinch = { d0: Math.hypot(a.x - b.x, a.y - b.y) || 1, s0: this.st.s, x0: this.st.x, y0: this.st.y, mx: (a.x + b.x) / 2, my: (a.y + b.y) / 2 };
+        if (this.drag) this.drag.moved = true;
+      }
+    }
+
+    _move(e) {
+      this.stage.classList.toggle("on-img", this._pointOnImage(e.clientX, e.clientY));
+      if (!this.pointers.has(e.pointerId)) return;
+      this.pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      if (this.pinch && this.pointers.size >= 2) {
+        const [a, b] = [...this.pointers.values()];
+        const d = Math.hypot(a.x - b.x, a.y - b.y);
+        const mx = (a.x + b.x) / 2, my = (a.y + b.y) / 2;
+        const p = this.pinch, st = this.st;
+        const ns = Math.min(24, Math.max(0.03, p.s0 * (d / p.d0)));
+        st.x = mx - ((p.mx - p.x0) * ns) / p.s0;
+        st.y = my - ((p.my - p.y0) * ns) / p.s0;
+        st.s = ns; st.mode = "free";
+        this._render();
+        return;
+      }
+      const dr = this.drag;
+      if (!dr) return;
+      const dx = e.clientX - dr.x0, dy = e.clientY - dr.y0;
+      if (!dr.moved && Math.abs(dx) + Math.abs(dy) > 4) { dr.moved = true; this.v.classList.add("dragging"); }
+      if (!dr.moved) return;
+      const now = performance.now();
+      dr.hist.push({ x: e.clientX, y: e.clientY, t: now });
+      if (dr.hist.length > 6) dr.hist.shift();
+      if (!this.v.classList.contains("zoomed") && this.items.length > 1) {
+        // not zoomed: horizontal drag previews a swipe
+        this.st.x = dr.sx + dx; this._render();
+        return;
+      }
+      this.st.x = dr.sx + dx; this.st.y = dr.sy + dy; this.st.mode = "free";
+      this._clamp(); this._render();
+    }
+
+    _up(e, cancelled) {
+      this.pointers.delete(e.pointerId);
+      if (this.pointers.size < 2) this.pinch = null;
+      if (this.pointers.size > 0) return;
+      const dr = this.drag;
+      this.drag = null;
+      this.v.classList.remove("dragging");
+      if (!dr || cancelled) return;
+      const dx = e.clientX - dr.x0;
+      if (!dr.moved) {
+        if (e.pointerType === "touch") return this._tap(e.clientX, e.clientY, dr.onImg);
+        if (dr.onImg) this._toggleZoomAt(e.clientX, e.clientY);
+        else if (this.prefs.backdropClose) this.close();
+        return;
+      }
+      if (!this.v.classList.contains("zoomed") && this.items.length > 1) {
+        if (Math.abs(dx) > 80) this.act(dx < 0 ? "next" : "prev");
+        else this._applyMode(this.st.mode === "free" ? this.baseMode : this.st.mode, true);
+        return;
+      }
+      // inertia
+      const h = dr.hist;
+      if (h.length >= 2) {
+        const a = h[0], b = h[h.length - 1];
+        const dt = Math.max(1, b.t - a.t);
+        let vx = (b.x - a.x) / dt, vy = (b.y - a.y) / dt;
+        if (performance.now() - b.t < 80 && Math.hypot(vx, vy) > 0.3) this._inertia(vx * 16, vy * 16);
+      }
+    }
+
+    // Touch: one tap shows/hides the controls, a double tap zooms in/out at that spot.
+    _tap(x, y, onImg) {
+      const now = performance.now();
+      const last = this._lastTap;
+      if (last && now - last.t < 300 && Math.hypot(x - last.x, y - last.y) < 40) {
+        clearTimeout(this._tapT);
+        this._lastTap = null;
+        this._toggleZoomAt(x, y);
+        return;
+      }
+      this._lastTap = { t: now, x, y };
+      clearTimeout(this._tapT);
+      this._tapT = setTimeout(() => {
+        this._lastTap = null;
+        if (this.v.classList.contains("idle")) this._wake();
+        else { clearTimeout(this._idleT); this.v.classList.add("idle"); }
+      }, 300);
+    }
+
+    _inertia(vx, vy) {
+      const step = () => {
+        vx *= 0.92; vy *= 0.92;
+        if (Math.abs(vx) < 0.4 && Math.abs(vy) < 0.4) return;
+        this.pan(vx, vy);
+        this._raf = requestAnimationFrame(step);
+      };
+      this._raf = requestAnimationFrame(step);
+    }
+    _stopInertia() { cancelAnimationFrame(this._raf); }
+
+    _wake() {
+      this.v.classList.remove("idle");
+      clearTimeout(this._idleT);
+      if (!this.prefs.autoHideUI) return;
+      this._idleT = setTimeout(() => {
+        if (this.shadow.querySelector(".ui:hover")) return this._wake();
+        this.v.classList.add("idle");
+      }, 2600);
+    }
+
+    _key(e) {
+      if (e.ctrlKey || e.metaKey || e.altKey) return;
+      const k = e.key;
+      const map = {
+        Escape: "close", ArrowLeft: "prev", ArrowRight: "next", "+": "in", "=": "in", "-": "out", _: "out",
+        0: "fit", 1: "actual", w: "width", r: "rotate", R: "rotateL", b: "bg", f: "full", " ": "play",
+        d: "download", s: "save", o: "openimg", Enter: "page", Home: "first", End: "last", i: "ui"
+      };
+      let act = map[k] || map[k.toLowerCase()];
+      if (k === "R") act = "rotateL";
+      if ((k === "ArrowLeft" || k === "ArrowRight") && e.shiftKey) { this.pan(k === "ArrowLeft" ? 120 : -120, 0, "anim"); act = "handled"; }
+      if (k === "ArrowUp" || k === "ArrowDown") { this.pan(0, (k === "ArrowUp" ? 1 : -1) * innerHeight * 0.2, "anim"); act = "handled"; }
+      if (!act) return;
+      e.preventDefault(); e.stopPropagation(); e.stopImmediatePropagation();
+      if (act !== "handled") this.act(act);
+      this._wake();
+    }
+
+    // ---------------------------------------------------------------- actions
+    act(a) {
+      const it = this.current && this.current.it;
+      switch (a) {
+        case "close": return this.close();
+        case "prev": return this.items.length > 1 && this.show(this.index - 1);
+        case "next": return this.items.length > 1 && this.show(this.index + 1);
+        case "first": return this.show(0);
+        case "last": return this.show(this.items.length - 1);
+        case "in": return this.zoomTo(this.st.s * 1.3, undefined, undefined, "anim");
+        case "out": return this.zoomTo(this.st.s / 1.3, undefined, undefined, "anim");
+        case "fit": this.baseMode = "fit"; return this._applyMode("fit", true);
+        case "width": this.baseMode = "width"; return this._applyMode("width", true);
+        case "actual": return this._applyMode("actual", true);
+        case "pct": return Math.abs(this.st.s - 1) < 0.01 ? this._applyMode("fit", true) : this._applyMode("actual", true);
+        case "rotate": case "rotateL":
+          this.st.rot = (this.st.rot + (a === "rotate" ? 1 : 3)) % 4;
+          this._layoutFrame();
+          return this._applyMode(this.st.mode === "free" ? "fit" : this.st.mode, false);
+        case "bg": {
+          const next = BGS[(BGS.indexOf(this.v.dataset.bg) + 1) % BGS.length];
+          this.v.dataset.bg = next;
+          prefSet("viewerBg", next);
+          return this.toast("Background: " + next);
+        }
+        case "play": return this.togglePlay();
+        case "full":
+          if (document.fullscreenElement) document.exitFullscreen();
+          else this.host.requestFullscreen().catch(() => {});
+          return;
+        case "ui": this.prefs.autoHideUI = !this.prefs.autoHideUI; this._wake(); return this.toast(this.prefs.autoHideUI ? "Controls auto-hide on" : "Controls stay visible");
+        case "download": return it && this.actions.download && this.actions.download(it, this.current.best);
+        case "save":
+          if (!it || !this.actions.save) return;
+          return Promise.resolve(this.actions.save(it, this.current.best)).then(() => this._refreshSaved());
+        case "openimg": { const a = this.shadow.querySelector('[data-link="img"]'); return a && a.href && a.click(); }
+        case "page": { const a = this.shadow.querySelector('[data-link="page"]'); return a && a.href && a.click(); }
+      }
+    }
+
+    _setLink(kind, url) {
+      const a = this.shadow && this.shadow.querySelector(`[data-link="${kind}"]`);
+      if (!a) return;
+      if (url) { a.href = url; a.hidden = false; } else { a.removeAttribute("href"); a.hidden = true; }
+    }
+
+    _refreshSaved() {
+      const b = this.shadow.querySelector('[data-act="save"]');
+      if (!b || !this.actions.isSaved) return;
+      const it = this.items[this.index];
+      Promise.resolve(this.actions.isSaved(it)).then((saved) => {
+        b.innerHTML = svg(saved ? "saved" : "save");
+        b.classList.toggle("on", !!saved);
+        b.dataset.tip = saved ? "In your Library (S to change)" : "Save to Library (S)";
+      });
+    }
+
+    togglePlay() {
+      if (this.items.length < 2) return;
+      this.playing = !this.playing;
+      this.v.classList.toggle("playing", this.playing);
+      const b = this.shadow.querySelector('[data-act="play"]');
+      if (b) b.innerHTML = svg(this.playing ? "pause" : "play");
+      clearInterval(this._playT);
+      if (this.playing) {
+        const ms = (parseFloat(this.prefs.slideshowSeconds) || 5) * 1000;
+        this._playT = setInterval(() => this.show(this.index + 1), ms);
+        this._restartProgress();
+        this.toast("Slideshow on");
+      } else {
+        this.prog.style.transition = "none"; this.prog.style.width = "0";
+        this.toast("Slideshow paused");
+      }
+    }
+
+    _restartProgress() {
+      const ms = (parseFloat(this.prefs.slideshowSeconds) || 5) * 1000;
+      this.prog.style.transition = "none";
+      this.prog.style.width = "0";
+      void this.prog.offsetWidth;
+      this.prog.style.transition = `width ${ms}ms linear`;
+      this.prog.style.width = "100%";
+      if (this.playing) {
+        clearInterval(this._playT);
+        this._playT = setInterval(() => this.show(this.index + 1), ms);
+      }
+    }
+
+    toast(text, isErr) {
+      this.msgEl.textContent = text;
+      this.msgEl.classList.toggle("err", !!isErr);
+      this.msgEl.classList.add("show");
+      clearTimeout(this._msgT);
+      this._msgT = setTimeout(() => this.msgEl.classList.remove("show"), isErr ? 3500 : 1600);
+    }
+
+    close() {
+      if (this.closed) return;
+      this.closed = true;
+      clearInterval(this._playT);
+      clearTimeout(this._idleT);
+      clearTimeout(this._tapT);
+      this._stopInertia();
+      window.removeEventListener("keydown", this._onKey, true);
+      window.removeEventListener("resize", this._onResize);
+      if (document.fullscreenElement === this.host) document.exitFullscreen().catch(() => {});
+      this.host.remove();
+      if (this._prevOverflow) document.documentElement.style.setProperty("overflow", this._prevOverflow, this._prevOverflowPrio);
+      else document.documentElement.style.removeProperty("overflow");
+      if (active === this) active = null;
+      if (this.onClose) this.onClose();
+    }
+  }
+
+  root.BDA_VIEWER = {
+    open(opts) {
+      if (active) active.close();
+      active = new Viewer(opts);
+      return active;
+    },
+    get active() { return active; },
+    isOpen: () => !!active,
+    close: () => active && active.close(),
+    toast: (t, e) => active && active.toast(t, e)
+  };
+})(typeof self !== "undefined" ? self : this);
+
+</script>
+<script>
+// Better DeviantArt — Library web page backend: Google sign-in + your own Firebase database.
+// Works in any phone/tablet/computer browser. Only your Google account can read or change your data
+// (users/<your id>/... in your Firestore, locked by the security rules from the setup).
+(function () {
+  const M = window.BDA_MERGE;
+  const IMG = window.BDA_IMAGES;
+  const GS = window.BDA_GSYNC;
+  const listeners = [];
+  const empty = () => ({ items: {}, categories: [], categoriesAt: 0, deleted: {} });
+  const B = {
+    kind: "google", mode: "loading", canEdit: false, lib: empty(), status: "Starting…", badge: "", badgeOk: false,
+    onUpdate(cb) { listeners.push(cb); }, toast: () => {}, menu: {}
+  };
+  window.BDA_BACKEND = B;
+  let emitT = null;
+  const emit = () => { clearTimeout(emitT); emitT = setTimeout(() => listeners.forEach((f) => f()), 30); };
+  const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const iDoc = (id) => "i_" + GS.docKey(id);
+  const strip = (it) => JSON.parse(JSON.stringify(it));
+
+  // ---------------------------------------------------------------- config (from the link the extension gives you)
+  function readConfig() {
+    const p = new URLSearchParams(location.search).get("c");
+    if (p) {
+      try { const c = GS.clean(GS.dec(p)); try { localStorage.setItem("bda.fbcfg", JSON.stringify(c)); } catch (e) {} return c; } catch (e) {}
+    }
+    try { const s = localStorage.getItem("bda.fbcfg"); if (s) return GS.clean(JSON.parse(s)); } catch (e) {}
+    if (window.BDA_FB_CONFIG) { try { return GS.clean(window.BDA_FB_CONFIG); } catch (e) {} }
+    return null;
+  }
+  const linkNonce = (/[#&]link=([a-f0-9]{8,64})/.exec(location.hash) || [])[1] || "";
+
+  function loadScript(src) {
+    return new Promise((resolve, reject) => {
+      const s = document.createElement("script");
+      s.src = src; s.onload = resolve; s.onerror = () => reject(new Error("Couldn't load Google sign-in (offline, or blocked by an ad blocker?)"));
+      document.head.appendChild(s);
+    });
+  }
+
+  let cfg = null, auth = null, db = null, user = null, col = null, unsub = null;
+  const written = new Map();
+  const storedItems = new Set();
+  let meta = {};
+  let loaded = false;
+
+  async function init() {
+    cfg = readConfig();
+    if (!cfg) {
+      B.mode = "setup"; B.badge = "not set up";
+      B.status = "Open this page with the phone link from Better DeviantArt (Library → Google account).";
+      return emit();
+    }
+    const base = cfg.sdkBase || `https://www.gstatic.com/firebasejs/${GS.SDK_VERSION}`;
+    await loadScript(base + "/firebase-app-compat.js");
+    await Promise.all([loadScript(base + "/firebase-auth-compat.js"), loadScript(base + "/firebase-firestore-compat.js")]);
+    const fcfg = { apiKey: cfg.apiKey, authDomain: cfg.authDomain, projectId: cfg.projectId };
+    if (cfg.appId) fcfg.appId = cfg.appId;
+    firebase.initializeApp(fcfg);
+    auth = firebase.auth();
+    db = firebase.firestore();
+    try { await db.enablePersistence({ synchronizeTabs: true }); } catch (e) {}
+    auth.getRedirectResult().catch((e) => showAuthError(e));
+    auth.onAuthStateChanged((u) => (u ? start(u) : signedOut()));
+  }
+
+  function signedOut() {
+    if (unsub) { unsub(); unsub = null; }
+    user = null; loaded = false; col = null;
+    written.clear(); storedItems.clear(); meta = {};
+    B.lib = empty();
+    B.mode = "signin"; B.canEdit = false; B.badge = "signed out"; B.badgeOk = false;
+    B.status = "Sign in with Google to see your Library";
+    emit();
+  }
+
+  function start(u) {
+    user = u;
+    B.mode = "edit"; B.canEdit = true; B.badge = u.email || "signed in"; B.badgeOk = true;
+    B.status = "Signed in as " + (u.email || u.displayName || "you");
+    col = db.collection("users").doc(u.uid).collection("lib");
+    if (unsub) unsub();
+    unsub = col.onSnapshot(onSnap, (e) => {
+      B.badge = "can't load"; B.badgeOk = false;
+      B.status = /permission/i.test(e && (e.code || e.message)) ? "Your database refused access — check the security rules (setup step 3)" : "Lost the connection — reload the page";
+      B.toast(B.status, true);
+      emit();
+    });
+    if (/[#&]doc\b/.test(location.hash)) {
+      B.notice = `Make a Google Doc with every link in your Library, grouped by category. <button class="pill accent" data-makedoc>Make Google Doc</button>`;
+      history.replaceState(null, "", location.pathname + location.search);
+    }
+    emit();
+    if (linkNonce) linkExtension();
+  }
+
+  function onSnap(snap) {
+    const items = {};
+    let m = {};
+    written.clear(); storedItems.clear();
+    snap.forEach((d) => {
+      const raw = d.data() || {};
+      let data = null;
+      try { data = JSON.parse(raw.j); } catch (e) { return; }
+      if (!data) return;
+      written.set(d.id, raw.j);
+      if (d.id === "meta") m = data;
+      else if (d.id.startsWith("i_") && data.id && data.url) { items[data.id] = data; storedItems.add(data.id); }
+    });
+    meta = m;
+    B.lib = { items, categories: m.categories || [], categoriesAt: m.categoriesAt || 0, deleted: m.deleted || {} };
+    loaded = true;
+    emit();
+  }
+
+  // ---------------------------------------------------------------- writes (only what changed)
+  const ts = () => firebase.firestore.FieldValue.serverTimestamp();
+  async function runOps(ops) {
+    for (let i = 0; i < ops.length; i += 400) {
+      const batch = db.batch();
+      for (const [kind, c, id, data] of ops.slice(i, i + 400)) {
+        const ref = c.doc(id);
+        if (kind === "set") batch.set(ref, { j: JSON.stringify(data), _ts: ts() });
+        else batch.delete(ref);
+      }
+      await batch.commit();
+    }
+  }
+  const userCol = (name) => db.collection("users").doc(user.uid).collection(name);
+
+  async function persist(next) {
+    if (!col) throw new Error("Sign in first");
+    const ops = [];
+    const nextMeta = Object.assign({}, meta, { categories: next.categories, categoriesAt: next.categoriesAt, deleted: next.deleted });
+    if (JSON.stringify(nextMeta) !== written.get("meta")) ops.push(["set", col, "meta", nextMeta]);
+    for (const id in next.items) {
+      const body = strip(next.items[id]);
+      if (JSON.stringify(body) !== written.get(iDoc(id))) ops.push(["set", col, iDoc(id), body]);
+    }
+    const gone = [];
+    for (const id of [...storedItems]) {
+      if (next.items[id]) continue;
+      ops.push(["del", col, iDoc(id)]);
+      ops.push(["del", userCol("thumbs"), GS.docKey(id)]);
+      gone.push(B.lib.items[id]);
+    }
+    meta = nextMeta;
+    B.lib = next;
+    emit();
+    if (ops.length) await runOps(ops);
+    for (const it of gone) if (it && IMG.isUpload(it)) deleteFile(it.id).catch(() => {});
+  }
+
+  async function deleteFile(id) {
+    const fc = userCol("files"), key = GS.docKey(id);
+    const first = await fc.doc(key + "_0").get();
+    if (!first.exists) return;
+    let n = 1;
+    try { n = JSON.parse(first.data().j).n || 1; } catch (e) {}
+    const ops = [];
+    for (let i = 0; i < n; i++) ops.push(["del", fc, key + "_" + i]);
+    await runOps(ops);
+  }
+
+  const fileCache = new Map();
+  async function getFile(id) {
+    if (fileCache.has(id)) return fileCache.get(id);
+    const fc = userCol("files"), key = GS.docKey(id);
+    const first = await fc.doc(key + "_0").get();
+    if (!first.exists) return null;
+    const f = JSON.parse(first.data().j);
+    const parts = [f.d];
+    for (let i = 1; i < (f.n || 1); i++) {
+      const d = await fc.doc(key + "_" + i).get();
+      if (!d.exists) return null;
+      parts.push(JSON.parse(d.data().j).d);
+    }
+    const blob = IMG.base64ToBlob(parts.join(""), f.mime);
+    fileCache.set(id, blob);
+    return blob;
+  }
+
+  // Shrink a photo until it fits comfortably (phone photos can be 10+ MB).
+  async function fitForCloud(blob) {
+    if (blob.size < 2.4e6) return blob;
+    const bmp = await createImageBitmap(blob);
+    const scale = Math.min(1, 2560 / Math.max(bmp.width, bmp.height));
+    const c = document.createElement("canvas");
+    c.width = Math.round(bmp.width * scale); c.height = Math.round(bmp.height * scale);
+    c.getContext("2d").drawImage(bmp, 0, 0, c.width, c.height);
+    let q = 0.88, out;
+    do { out = await new Promise((r) => c.toBlob(r, "image/jpeg", q)); q -= 0.12; } while (out.size > 2.4e6 && q > 0.4);
+    return out;
+  }
+
+  // ---------------------------------------------------------------- API used by the web app
+  B.commit = (next) => persist(next);
+  B.thumbOf = (it) => it.thumb || it.img || "";
+  B.fallbackThumb = async (it) => {
+    if (!user || IMG.isUpload(it)) return "";
+    try { const d = await userCol("thumbs").doc(GS.docKey(it.id)).get(); return d.exists ? JSON.parse(d.data().j).thumb || "" : ""; } catch (e) { return ""; }
+  };
+  B.loadFull = async (it) => {
+    if (IMG.isUpload(it)) { const b = await getFile(it.id); return b ? URL.createObjectURL(b) : null; }
+    return it.img || null;
+  };
+  B.imageLink = (it) => (IMG.isUpload(it) ? "" : it.img || "");
+
+  B.upload = async ({ out, category, tags }) => {
+    if (!user) throw new Error("Sign in first");
+    const full = await fitForCloud(out.full);
+    const b64 = await IMG.blobToBase64(full);
+    const id = IMG.newId();
+    const n = Math.max(1, Math.ceil(b64.length / GS.CHUNK));
+    const ops = [];
+    for (let i = 0; i < n; i++) ops.push(["set", userCol("files"), GS.docKey(id) + "_" + i, { id, mime: full.type || out.mime, n, i, d: b64.slice(i * GS.CHUNK, (i + 1) * GS.CHUNK) }]);
+    await runOps(ops);
+    fileCache.set(id, full);
+    const t = Date.now();
+    const next = { items: Object.assign({}, B.lib.items), categories: B.lib.categories.slice(), categoriesAt: B.lib.categoriesAt, deleted: B.lib.deleted };
+    const cat = String(category || "").trim();
+    if (cat && !next.categories.includes(cat)) { next.categories.push(cat); next.categoriesAt = t; }
+    next.items[id] = { id, upload: true, url: "upload:" + id, title: out.name, artist: "", thumb: out.thumb, img: "", w: out.w, h: out.h, mime: full.type || out.mime,
+      category: cat, tags: tags || [], note: "", savedAt: t, updatedAt: t };
+    await persist(next);
+  };
+
+  // Save to your phone: the share sheet (→ "Save Image" / Photos) where available, otherwise a download.
+  B.saveImage = async (it) => {
+    let blob = null;
+    if (IMG.isUpload(it)) blob = await getFile(it.id);
+    else {
+      try { const r = await fetch(it.img, { referrerPolicy: "no-referrer" }); if (r.ok) blob = await r.blob(); } catch (e) {}
+      if (!blob) { window.open(it.img, "_blank", "noopener"); return "Long-press the image to save it"; }
+    }
+    if (!blob) throw new Error("This image isn't in your account yet — open the extension on your computer to finish syncing");
+    const ext = ((blob.type || "image/jpeg").split("/")[1] || "jpg").replace("jpeg", "jpg");
+    const name = String(it.title || "image").replace(/[\\/:*?"<>|]+/g, " ").slice(0, 80) + "." + ext;
+    const file = new File([blob], name, { type: blob.type || "image/jpeg" });
+    if (navigator.canShare && navigator.canShare({ files: [file] })) {
+      try { await navigator.share({ files: [file], title: it.title || "Image" }); return ""; } catch (e) { if (e && e.name === "AbortError") return ""; }
+    }
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob); a.download = name;
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 5000);
+    return "Saved";
+  };
+
+  // ---------------------------------------------------------------- sign in
+  function provider(extra) {
+    const p = new firebase.auth.GoogleAuthProvider();
+    p.setCustomParameters({ prompt: "select_account" });
+    if (extra) p.addScope(extra);
+    return p;
+  }
+  function showAuthError(e) {
+    if (!e || !e.code) return;
+    if (/popup-closed|cancelled-popup|user-cancelled/.test(e.code)) return;
+    let m = e.message || e.code;
+    if (e.code === "auth/unauthorized-domain") m = `Add “${location.hostname}” to Firebase → Authentication → Settings → Authorized domains (setup step 6), then try again.`;
+    else if (e.code === "auth/operation-not-allowed") m = "Turn on Google sign-in: Firebase → Authentication → Sign-in method → Google → Enable (setup step 2).";
+    else if (e.code === "auth/network-request-failed") m = "No connection — check your internet and try again.";
+    B.toast(m, true);
+    B.status = m;
+    emit();
+  }
+  B.signIn = async () => {
+    if (!auth) return;
+    try { await auth.signInWithPopup(provider()); }
+    catch (e) {
+      if (/popup-blocked|operation-not-supported|web-storage-unsupported/.test(e.code || "")) {
+        try { await auth.signInWithRedirect(provider()); } catch (e2) { showAuthError(e2); }
+      } else showAuthError(e);
+    }
+  };
+  B.signOut = async () => { if (auth) await auth.signOut(); };
+
+  // On your computer: hand this browser's Better DeviantArt extension a sign-in, so it can sync by itself.
+  let linked = false;
+  function linkExtension() {
+    if (linked || !user) return;
+    const rid = "g" + Math.random().toString(36).slice(2);
+    const onMsg = (e) => {
+      const d = e.data;
+      if (e.source !== window || !d || d.__bda !== "ext" || d.replyTo !== rid) return;
+      window.removeEventListener("message", onMsg);
+      clearTimeout(timer);
+      if (d.ok) {
+        linked = true;
+        history.replaceState(null, "", location.pathname + location.search);
+        B.connected = true;
+        B.toast("Connected! Better DeviantArt on this computer now syncs with your Google account.");
+        B.notice = `<b>This computer is connected.</b> Your saves sync to ${esc(user.email || "your account")} automatically. You can close this tab.`;
+        emit();
+      } else {
+        B.toast(d.error || "Couldn't connect the extension", true);
+        B.notice = esc(d.error || "Couldn't connect the extension");
+        emit();
+      }
+    };
+    window.addEventListener("message", onMsg);
+    const timer = setTimeout(() => { window.removeEventListener("message", onMsg); B.notice = "Couldn't find the Better DeviantArt extension in this browser. Open this page from the extension (Library → Google account → Sign in with Google)."; emit(); }, 6000);
+    window.postMessage({ __bda: "page", type: "glink", rid, nonce: linkNonce, cfg, uid: user.uid, email: user.email || "", name: user.displayName || "", photo: user.photoURL || "", refreshToken: user.refreshToken }, "*");
+  }
+
+  // ---------------------------------------------------------------- Google Doc of every link (in your own Drive)
+  const DOC_SCOPE = "https://www.googleapis.com/auth/drive.file";
+  async function driveToken() {
+    let res;
+    try { res = await user.reauthenticateWithPopup(provider(DOC_SCOPE)); }
+    catch (e) {
+      if (/popup-blocked/.test(e.code || "")) throw new Error("Allow pop-ups for this page, then try again");
+      if (/popup-closed|cancelled/.test(e.code || "")) return null;
+      if (/user-mismatch/.test(e.code || "")) throw new Error("Pick the same Google account you're signed in with");
+      throw e;
+    }
+    const cred = res && res.credential;
+    return cred && cred.accessToken;
+  }
+  function docHtml(lib) {
+    const items = Object.values(lib.items);
+    const groups = new Map();
+    for (const c of lib.categories) groups.set(c, []);
+    groups.set("", []);
+    for (const it of items) { const k = it.category || ""; if (!groups.has(k)) groups.set(k, []); groups.get(k).push(it); }
+    let h = `<html><head><meta charset="utf-8"></head><body><h1>My DeviantArt Library</h1><p>${items.length} saved · updated ${esc(new Date().toLocaleString())}</p>`;
+    for (const [c, list] of groups) {
+      if (!list.length) continue;
+      h += `<h2>${esc(c || "Uncategorized")} (${list.length})</h2>`;
+      for (const it of list.sort((a, b) => (b.savedAt || 0) - (a.savedAt || 0))) {
+        const up = IMG.isUpload(it);
+        const link = up ? "" : it.url;
+        const thumb = !up && /^https:/.test(it.thumb || "") ? it.thumb : "";
+        h += `<p>${thumb ? `<img src="${esc(thumb)}" width="160"><br>` : ""}<b>${link ? `<a href="${esc(link)}">${esc(it.title || "Untitled")}</a>` : esc(it.title || "Untitled")}</b>${it.artist ? " by " + esc(it.artist) : up ? " (your image)" : ""}` +
+          `${(it.tags || []).length ? `<br><i>${esc(it.tags.join(", "))}</i>` : ""}${it.note ? `<br>${esc(it.note)}` : ""}</p>`;
+      }
+    }
+    return h + "</body></html>";
+  }
+  async function makeDoc() {
+    if (!user) return;
+    B.toast("Asking Google for access to make the doc…");
+    const token = await driveToken();
+    if (!token) return;
+    const html = docHtml(B.lib);
+    const docId = meta.gdocId || "";
+    const boundary = "bda" + Math.random().toString(36).slice(2);
+    let r;
+    if (docId) {
+      r = await fetch(`https://www.googleapis.com/upload/drive/v3/files/${encodeURIComponent(docId)}?uploadType=media`, {
+        method: "PATCH", headers: { Authorization: "Bearer " + token, "Content-Type": "text/html; charset=UTF-8" }, body: html
+      });
+    }
+    if (!docId || !r.ok) {
+      const body = `--${boundary}\r\nContent-Type: application/json; charset=UTF-8\r\n\r\n${JSON.stringify({ name: "My DeviantArt Library", mimeType: "application/vnd.google-apps.document" })}\r\n--${boundary}\r\nContent-Type: text/html; charset=UTF-8\r\n\r\n${html}\r\n--${boundary}--`;
+      r = await fetch("https://www.googleapis.com/upload/drive/v3/files?uploadType=multipart&fields=id", {
+        method: "POST", headers: { Authorization: "Bearer " + token, "Content-Type": "multipart/related; boundary=" + boundary }, body
+      });
+    }
+    const j = await r.json().catch(() => ({}));
+    if (!r.ok) {
+      const msg = (j.error && j.error.message) || "HTTP " + r.status;
+      if (/has not been used|is disabled|accessNotConfigured/i.test(msg)) {
+        const url = `https://console.cloud.google.com/apis/library/drive.googleapis.com?project=${encodeURIComponent(cfg.projectId)}`;
+        B.notice = `To make Google Docs, turn on the Google Drive API once: <a href="${url}" target="_blank" rel="noopener">open this page</a> → <b>Enable</b>, wait a minute, then try again.`;
+        emit();
+        throw new Error("Turn on the Google Drive API first (see the note at the top)");
+      }
+      throw new Error("Google Doc failed: " + msg);
+    }
+    const id = j.id || docId;
+    if (id !== meta.gdocId) {
+      meta = Object.assign({}, meta, { gdocId: id });
+      await runOps([["set", col, "meta", Object.assign({}, meta, { categories: B.lib.categories, categoriesAt: B.lib.categoriesAt, deleted: B.lib.deleted })]]).catch(() => {});
+    }
+    const url = "https://docs.google.com/document/d/" + id + "/edit";
+    B.notice = `Your Google Doc is ready: <a href="${url}" target="_blank" rel="noopener">open My DeviantArt Library</a>`;
+    emit();
+    const a = document.createElement("a"); a.href = url; a.target = "_blank"; a.rel = "noopener"; a.click();
+  }
+
+  B.menu = {
+    gdoc: { label: "Make / update Google Doc", sub: "Every link, grouped by category, in your Google Drive", icon: "doc", run: () => makeDoc().catch((e) => B.toast(e.message || String(e), true)) },
+    switch: { label: "Switch Google account", sub: "", icon: "refresh", run: async () => { await B.signOut(); B.signIn(); } },
+    signout: { label: "Sign out", sub: "", icon: "home", run: () => B.signOut() }
+  };
+
+  B.emptyHtml = () => {
+    if (B.mode === "loading") return `<div class="empty"><h2>Loading your Library…</h2></div>`;
+    if (B.mode === "setup") return `<div class="empty"><h2>Almost there</h2><p>Open this page with the <b>phone link</b> from the Better DeviantArt extension on your computer (<b>Library → Google account</b> — scan the QR code), so it knows which account to use. After that, this page remembers it.</p></div>`;
+    if (B.mode === "signin") return `<div class="empty signin"><h2>Your DeviantArt Library</h2><p>Sign in with the Google account you use with Better DeviantArt.</p>
+      <button class="gbtn" data-signin><svg viewBox="0 0 48 48" width="20" height="20"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-7.9l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C36.9 39.2 44 34 44 24c0-1.3-.1-2.4-.4-3.5z"/></svg>Sign in with Google</button>
+      <p class="muted">${esc(B.status && B.mode === "signin" && !/^Sign in with Google/.test(B.status) ? B.status : "")}</p></div>`;
+    return `<div class="empty"><h2>Your Library is empty</h2>
+      <p>On your computer, open Better DeviantArt → <b>Library → Google account</b> and sign in with this same Google account. Everything you've saved appears here, and new saves show up automatically.</p>
+      <p>You can also tap <b>+</b> to add your own images.</p></div>`;
+  };
+
+  document.addEventListener("click", (e) => {
+    if (!e.target.closest) return;
+    if (e.target.closest("[data-signin]")) { e.preventDefault(); B.signIn(); }
+    else if (e.target.closest("[data-makedoc]")) { e.preventDefault(); B.notice = ""; emit(); makeDoc().catch((er) => B.toast(er.message || String(er), true)); }
+  });
+
+  init().catch((e) => { B.mode = "signin"; B.status = (e && e.message) || String(e); B.badge = "error"; B.toast(B.status, true); emit(); });
+})();
+
+</script>
+<script>
+// Better DeviantArt — Library web app (phone / tablet / any browser).
+// Runs inside the Google Apps Script page (mode "edit" or "view") or as an exported offline file ("offline").
+(function () {
+  const BOOT = window.BDA_BOOT || { mode: "offline", library: { items: {}, categories: [] } };
+  // A backend can be supplied by the host page (the Claude cloud library sets window.BDA_BACKEND).
+  const EXT = window.BDA_BACKEND || null;
+  let MODE = EXT ? EXT.mode : BOOT.mode;
+  let CAN_EDIT = EXT ? !!EXT.canEdit : MODE === "edit";
+  const HAS_SERVER = !EXT && (MODE === "edit" || MODE === "view") && !!(window.google && google.script && google.script.run);
+  const $ = (s) => document.querySelector(s);
+
+  let lib = norm(EXT ? EXT.lib : BOOT.library);
+  let docUrl = BOOT.docUrl || "";
+  let lastFetch = Date.now();
+
+  const store = {
+    get(k, d) { try { const v = localStorage.getItem("bdaw." + k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
+    set(k, v) { try { localStorage.setItem("bdaw." + k, JSON.stringify(v)); } catch (e) {} }
+  };
+  const state = {
+    view: store.get("view", "auto"),
+    sort: store.get("sort", "new"),
+    col: store.get("col", window.innerWidth < 500 ? 150 : 210),
+    filter: null,
+    q: "",
+    selecting: false,
+    selected: new Set(),
+    order: new Map()
+  };
+  document.documentElement.style.setProperty("--col", state.col + "px");
+
+  function norm(l) {
+    l = l || {};
+    return { items: l.items || {}, categories: Array.isArray(l.categories) ? l.categories : [], categoriesAt: l.categoriesAt || 0, deleted: l.deleted || {} };
+  }
+
+  const ICON = {
+    more: '<circle cx="5" cy="12" r="1.6" class="f"/><circle cx="12" cy="12" r="1.6" class="f"/><circle cx="19" cy="12" r="1.6" class="f"/>',
+    check: '<path d="M5 12l5 5L20 7"/>',
+    play: '<path d="M8 5v14l11-7z" class="f"/>',
+    open: '<path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 01-1 1H5a1 1 0 01-1-1V7a1 1 0 011-1h5"/>',
+    refresh: '<path d="M20 11a8 8 0 10-2.3 5.7"/><path d="M20 4v7h-7"/>',
+    select: '<rect x="4" y="4" width="16" height="16" rx="3"/><path d="M8 12l3 3 5-6"/>',
+    tag: '<path d="M3 12V4h8l10 10-8 8z"/><circle cx="7.5" cy="7.5" r="1.5"/>',
+    doc: '<rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h4"/>',
+    size: '<rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/>',
+    home: '<path d="M3 11l9-8 9 8M5 10v10h14V10"/>',
+    trash: '<path d="M5 7h14M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3"/>'
+  };
+  const svg = (n) => `<svg viewBox="0 0 24 24">${ICON[n]}</svg>`;
+  const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+  let toastT;
+  function toast(text, isErr) {
+    if (window.BDA_VIEWER && BDA_VIEWER.isOpen()) return BDA_VIEWER.toast(text, isErr);
+    const t = $("#toast");
+    t.textContent = text;
+    t.classList.toggle("err", !!isErr);
+    t.classList.add("show");
+    clearTimeout(toastT);
+    toastT = setTimeout(() => t.classList.remove("show"), isErr ? 4000 : 2000);
+  }
+
+  function server(fn, ...args) {
+    return new Promise((resolve, reject) => {
+      if (!HAS_SERVER) return reject(new Error("This is an offline copy — it can't be changed"));
+      google.script.run.withSuccessHandler(resolve).withFailureHandler((e) => reject(e instanceof Error ? e : new Error(String(e && e.message || e))))[fn](...args);
+    });
+  }
+
+  // ---------------------------------------------------------------- data
+  const items = () => Object.values(lib.items).filter((it) => it && it.url);
+  const randKey = (id) => { if (!state.order.has(id)) state.order.set(id, Math.random()); return state.order.get(id); };
+  const shuffled = (list) => list.slice().sort((a, b) => randKey(a.id) - randKey(b.id));
+  const SORTS = {
+    new: (a, b) => (b.savedAt || 0) - (a.savedAt || 0),
+    old: (a, b) => (a.savedAt || 0) - (b.savedAt || 0),
+    artist: (a, b) => (a.artist || "").localeCompare(b.artist || "", undefined, { sensitivity: "base" }) || SORTS.new(a, b),
+    title: (a, b) => (a.title || "").localeCompare(b.title || "", undefined, { sensitivity: "base" })
+  };
+  const sorted = (list) => list.slice().sort(SORTS[state.sort] || SORTS.new);
+  const TAGS = window.BDA_TAGS;
+  const IMG = window.BDA_IMAGES;
+  const inCategory = () => items().filter((it) => state.filter === null || (it.category || "") === state.filter);
+  const filtered = () => inCategory().filter((it) => TAGS.matches(it, state.q));
+  function toggleTag(tag) {
+    const token = "#" + (tag.includes(" ") ? `"${tag}"` : tag);
+    let parts = state.q.split(/\s+(?=(?:[^"]*"[^"]*")*[^"]*$)/).filter(Boolean);
+    parts = parts.includes(token) ? parts.filter((p) => p !== token) : parts.concat(token);
+    state.q = parts.join(" ");
+    $("#q").value = state.q;
+    if (state.q && $("#searchbar").hidden) { $("#searchbar").hidden = false; $("#searchBtn").classList.add("on"); }
+    render();
+  }
+  const view = () => state.view !== "auto" ? state.view : (items().some((it) => it.category) ? "category" : "shuffle");
+
+  // Same edit rules as the server, applied right away so taps feel instant.
+  function applyOps(l, ops) {
+    const t = Date.now();
+    const cat = (name) => {
+      name = String(name || "").trim().slice(0, 60);
+      if (name && !l.categories.includes(name)) { l.categories.push(name); l.categoriesAt = t; }
+      return name;
+    };
+    for (const op of ops) {
+      const ids = [].concat(op.ids || op.id || []);
+      if (op.op === "remove") ids.forEach((id) => { if (l.items[id]) { delete l.items[id]; l.deleted[id] = t; } });
+      else if (op.op === "move") { const c = cat(op.category); ids.forEach((id) => { const it = l.items[id]; if (it) { it.category = c; it.updatedAt = t; } }); }
+      else if (op.op === "edit") { const it = l.items[op.id]; if (it) { if (op.note != null) it.note = op.note; if (op.title) it.title = op.title; it.updatedAt = t; } }
+      else if (op.op === "tags") { const it = l.items[op.id]; if (it) { it.tags = op.tags.slice(0, 30); it.updatedAt = t; } }
+      else if (op.op === "addTags") ids.forEach((id) => { const it = l.items[id]; if (it) { const cur = (it.tags || []).slice(); op.tags.forEach((x) => { if (!cur.includes(x)) cur.push(x); }); it.tags = cur; it.updatedAt = t; } });
+      else if (op.op === "addCategory") cat(op.name);
+      else if (op.op === "renameCategory") {
+        const to = String(op.to || "").trim();
+        if (!to) continue;
+        const i = l.categories.indexOf(op.from);
+        if (l.categories.includes(to)) { if (i >= 0) l.categories.splice(i, 1); } else if (i >= 0) l.categories[i] = to;
+        Object.values(l.items).forEach((it) => { if (it.category === op.from) { it.category = to; it.updatedAt = t; } });
+      } else if (op.op === "deleteCategory") {
+        l.categories = l.categories.filter((c) => c !== op.name);
+        Object.values(l.items).forEach((it) => { if (it.category === op.name) { it.category = ""; it.updatedAt = t; } });
+      }
+    }
+  }
+
+  async function edit(ops, msg) {
+    if (!CAN_EDIT) return toast("This link is view-only", true);
+    applyOps(lib, ops);
+    render();
+    if (msg) toast(msg);
+    if (EXT) {
+      try { await EXT.commit(lib); } catch (e) { toast("Couldn't save: " + (e.message || e.code || e), true); }
+      return;
+    }
+    try {
+      const res = await server("apiEdit", BOOT.key, ops);
+      if (res && res.library) { lib = norm(res.library); render(); }
+    } catch (e) {
+      toast("Couldn't save: " + e.message, true);
+      refresh(true);
+    }
+  }
+
+  async function refresh(quiet) {
+    if (EXT) { if (EXT.refresh) await EXT.refresh(); if (!quiet) toast("Up to date"); return; }
+    if (!HAS_SERVER) return quiet || toast("Offline copy — nothing to refresh");
+    try {
+      const res = await server("apiGet", BOOT.key);
+      lib = norm(res.library);
+      if (res.docUrl) docUrl = res.docUrl;
+      lastFetch = Date.now();
+      render();
+      if (!quiet) toast("Up to date");
+    } catch (e) { if (!quiet) toast("Refresh failed: " + e.message, true); }
+  }
+
+  // ---------------------------------------------------------------- render
+  let visible = [];
+
+  function renderChips() {
+    const counts = { __all: 0 };
+    for (const it of items()) { counts.__all++; counts[it.category || ""] = (counts[it.category || ""] || 0) + 1; }
+    const el = $("#chips");
+    el.textContent = "";
+    const mk = (label, value, n) => {
+      const b = document.createElement("button");
+      b.className = "chip" + (state.filter === value ? " on" : "");
+      b.innerHTML = `<span>${esc(label)}</span><i>${n || 0}</i>`;
+      b.onclick = () => { state.filter = state.filter === value && value !== null ? null : value; render(); };
+      el.appendChild(b);
+    };
+    mk("All", null, counts.__all);
+    for (const c of lib.categories) if (counts[c]) mk(c, c, counts[c]);
+    if (counts[""] && lib.categories.length) mk("Uncategorized", "", counts[""]);
+    el.hidden = el.children.length < 2;
+    const row = $("#tagrow");
+    row.textContent = "";
+    const active = state.q.toLowerCase().split(/\s+/);
+    for (const [t, n] of TAGS.top(inCategory(), 30)) {
+      const b = document.createElement("button");
+      const token = "#" + (t.includes(" ") ? `"${t}"` : t);
+      b.className = "tag" + (active.includes(token) ? " on" : "");
+      b.innerHTML = `${esc(t)}<i>${n}</i>`;
+      b.onclick = () => toggleTag(t);
+      row.appendChild(b);
+    }
+  }
+
+  function placeholder(it) {
+    const letter = esc(((it.title || "?").trim()[0] || "?").toUpperCase());
+    return "data:image/svg+xml;charset=utf-8," + encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" width="300" height="220"><rect width="300" height="220" fill="#182025"/><text x="150" y="132" font-family="system-ui,sans-serif" font-size="72" fill="#3c4a53" text-anchor="middle">${letter}</text></svg>`);
+  }
+  const thumbOf = (it) => (EXT && EXT.thumbOf ? EXT.thumbOf(it) : (it.thumb || it.img)) || placeholder(it);
+
+  function tagChips(it) {
+    const mine = (it.tags || []).map(TAGS.norm).filter(Boolean);
+    const da = (it.daTags || []).map(TAGS.norm).filter((t) => t && !mine.includes(t));
+    const show = mine.slice(0, 3).map((t) => [t, 1]).concat(da.slice(0, Math.max(0, 2 - mine.length)).map((t) => [t, 0]));
+    return show.length ? `<div class="tags">${show.map(([t, m]) => `<button class="tag${m ? " mine" : ""}" data-tag="${esc(t)}">${esc(t)}</button>`).join("")}</div>` : "";
+  }
+
+  function card(it) {
+    const el = document.createElement("div");
+    el.className = "card" + (state.selected.has(it.id) ? " sel" : "");
+    el.dataset.id = it.id;
+    el.innerHTML = `<img loading="lazy" alt="" referrerpolicy="no-referrer">
+      <div class="chk">${svg("check")}</div>
+      <button class="more" aria-label="Options">${svg("more")}</button>
+      <div class="info"><div class="t">${esc(it.title || "Untitled")}</div>
+      <div class="a"><span>${it.artist ? "by " + esc(it.artist) : IMG.isUpload(it) ? "Your image" : it.remote ? "Image link" : ""}</span>${it.category && view() !== "category" ? `<span class="cat">${esc(it.category)}</span>` : ""}</div>${tagChips(it)}</div>`;
+    const img = el.querySelector("img");
+    img.src = thumbOf(it);
+    img.onerror = () => {
+      if (!EXT && it.img && img.src !== it.img) img.src = it.img;
+      else if (EXT && EXT.fallbackThumb && !img.dataset.fb) {
+        img.dataset.fb = "1";
+        EXT.fallbackThumb(it).then((u) => { img.src = u || placeholder(it); });
+      } else if (!/^data:image\/svg/.test(img.src)) img.src = placeholder(it);
+    };
+    return el;
+  }
+
+  function renderNotice() {
+    if (!EXT) return;
+    const b = $("#notice");
+    if (!b) return;
+    b.hidden = !EXT.notice;
+    if (EXT.notice && b.dataset.html !== EXT.notice) {
+      b.dataset.html = EXT.notice;
+      b.innerHTML = `<span>${EXT.notice}</span><button aria-label="Dismiss">✕</button>`;
+      b.querySelector('button[aria-label="Dismiss"]').onclick = () => { EXT.notice = ""; b.hidden = true; b.dataset.html = ""; };
+    }
+  }
+  function render() {
+    renderNotice();
+    renderChips();
+    const all = items();
+    $("#count").innerHTML = `${all.length} saved${lib.categories.length ? " · " + lib.categories.length + " categories" : ""}` +
+      (EXT ? (EXT.badge ? `<span class="ro${EXT.badgeOk ? " ok" : ""}">${esc(EXT.badge)}</span>` : "") : CAN_EDIT ? "" : '<span class="ro">' + (MODE === "offline" ? "offline copy" : "view only") + "</span>");
+    $("#addBtn").hidden = !CAN_EDIT;
+    document.querySelectorAll("#viewSeg button").forEach((b) => b.classList.toggle("on", b.dataset.v === state.view));
+    $("#sort").value = state.sort;
+    $("#sort").disabled = view() === "shuffle";
+    const grid = $("#grid");
+    grid.textContent = "";
+    visible = [];
+    const list = filtered();
+    if (!all.length) {
+      grid.innerHTML = EXT && EXT.emptyHtml ? EXT.emptyHtml() : `<div class="empty"><h2>Nothing saved yet</h2><p>Save deviations on your computer with Better DeviantArt (press S on a deviation). They'll show up here after the next sync.</p></div>`;
+      return updateSel();
+    }
+    if (!list.length) { grid.innerHTML = `<div class="empty"><h2>Nothing matches</h2><p>Try another search or category.</p></div>`; return updateSel(); }
+
+    const section = (title, arr) => {
+      const sec = document.createElement("section");
+      sec.className = "section";
+      if (title != null) {
+        const h = document.createElement("div");
+        h.className = "section-h";
+        h.innerHTML = `<h2>${esc(title)}</h2><span class="n">${arr.length}</span><button>${svg("play")}Play</button>`;
+        h.querySelector("button").onclick = () => openViewer(shuffled(arr), 0, true);
+        sec.appendChild(h);
+      }
+      const g = document.createElement("div");
+      g.className = "masonry";
+      for (const it of arr) { g.appendChild(card(it)); visible.push(it); }
+      sec.appendChild(g);
+      grid.appendChild(sec);
+    };
+
+    const v = view();
+    if (v === "shuffle") section(null, shuffled(list));
+    else if (v === "artist") {
+      const by = new Map();
+      for (const it of sorted(list)) { const k = it.artist || "Unknown artist"; if (!by.has(k)) by.set(k, []); by.get(k).push(it); }
+      [...by.entries()].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0])).forEach(([k, arr]) => section(k, arr));
+    } else {
+      const groups = new Map();
+      for (const c of lib.categories) groups.set(c, []);
+      groups.set("", []);
+      for (const it of list) { const k = it.category || ""; if (!groups.has(k)) groups.set(k, []); groups.get(k).push(it); }
+      for (const [c, arr] of groups) if (arr.length) section(c || "Uncategorized", c ? sorted(arr) : (state.sort === "new" ? shuffled(arr) : sorted(arr)));
+    }
+    updateSel();
+  }
+
+  // ---------------------------------------------------------------- viewer
+  function openViewer(list, index, autoplay) {
+    if (!list.length || !window.BDA_VIEWER) return;
+    const v = BDA_VIEWER.open({
+      items: list.map((it) => {
+        const up = IMG.isUpload(it);
+        return {
+          src: thumbOf(it), best: EXT || up ? undefined : it.img || undefined, title: it.title, artist: it.artist || (up ? "you" : ""),
+          url: up ? "" : (it.remote ? it.img : it.url), id: it.id, lib: it,
+          load: EXT ? () => EXT.loadFull(it) : up ? () => (it.driveId && HAS_SERVER ? server("apiImage", BOOT.key, it.driveId) : Promise.resolve(null)) : undefined
+        };
+      }),
+      index: Math.max(0, index),
+      prefs: { zoomMode: "fit", autoHideUI: true, backdropClose: false, slideshowSeconds: store.get("slide", 5), accent: getComputedStyle(document.documentElement).getPropertyValue("--accent").trim() || "#00e59b",
+        noImageLink: !!EXT && !EXT.imageLink, downloadLabel: EXT ? "Save to device" : "Download" },
+      actions: EXT ? (EXT.saveImage ? { download: (vi) => EXT.saveImage(vi.lib).then((m) => m && toast(m), (e) => toast(e.message || "Couldn't save", true)) } : {}) :
+        { download: (it) => { if (/^data:/.test(it.best || "")) { const a = document.createElement("a"); a.href = it.best; a.download = (it.title || "image") + ".jpg"; a.click(); } else window.open(it.best || it.src, "_blank"); } }
+    });
+    if (autoplay && list.length > 1) v.togglePlay();
+  }
+
+  // ---------------------------------------------------------------- sheets
+  function openSheet(html, setup) {
+    $("#sheetBody").innerHTML = html;
+    $("#sheet").hidden = false;
+    $("#scrim").hidden = false;
+    if (setup) setup($("#sheetBody"));
+  }
+  function closeSheet() { $("#sheet").hidden = true; $("#scrim").hidden = true; $("#sheetBody").innerHTML = ""; }
+  $("#scrim").onclick = closeSheet;
+
+  function ask(message, opts = {}) {
+    return new Promise((resolve) => {
+      openSheet(`<h3 style="font-size:16px;line-height:1.4">${esc(message)}</h3>
+        ${opts.input ? `<input type="text" data-ask placeholder="${esc(opts.placeholder || "")}" maxlength="300" enterkeyhint="done" style="margin-top:12px">` : ""}
+        <div class="row" style="margin-top:14px"><button class="pill ${opts.danger ? "danger-solid" : "accent"}" data-ok>${esc(opts.okLabel || "OK")}</button>${opts.noCancel ? "" : '<button class="pill" data-cancel>Cancel</button>'}</div>`, (body) => {
+        const input = body.querySelector("[data-ask]");
+        const done = (v) => { closeSheet(); resolve(v); };
+        body.querySelector("[data-ok]").onclick = () => done(input ? input.value : true);
+        const c = body.querySelector("[data-cancel]");
+        if (c) c.onclick = () => done(null);
+        if (input) { input.focus(); input.onkeydown = (e) => { if (e.key === "Enter") done(input.value); }; }
+      });
+    });
+  }
+
+  function categoryChips(current, withNew) {
+    const names = [""].concat(lib.categories);
+    return `<div class="row">${names.map((c) => `<button class="chip${(current || "") === c ? " cur" : ""}" data-cat="${esc(c)}">${esc(c || "Uncategorized")}</button>`).join("")}</div>` +
+      (withNew ? `<input type="text" data-new placeholder="New category… then tap Enter" maxlength="60" enterkeyhint="done">` : "");
+  }
+
+  function itemSheet(it) {
+    const ro = !CAN_EDIT;
+    openSheet(`
+      <img class="preview" src="${esc(thumbOf(it))}" alt="">
+      <h3 style="margin-top:12px">${esc(it.title || "Untitled")}</h3>
+      <div class="sub">${it.artist ? "by " + esc(it.artist) : IMG.isUpload(it) ? "Your image" : ""}${it.category ? " · " + esc(it.category) : ""}</div>
+      <div class="row">
+        ${IMG.isUpload(it) ? "" : `<a class="pill accent" href="${esc(it.remote ? it.img : it.url)}" target="_blank" rel="noopener" style="text-decoration:none">${it.remote ? "Open image link" : "Open on DeviantArt"}</a>`}
+        <button class="pill${IMG.isUpload(it) ? " accent" : ""}" data-a="view">View</button>
+        ${IMG.isUpload(it) || it.remote || (EXT && !EXT.imageLink) ? "" : `<a class="pill" href="${esc(it.img || it.thumb)}" target="_blank" rel="noopener" style="text-decoration:none">Full image</a>`}
+      </div>
+      ${ro ? (it.note ? `<div class="lbl">Note</div><div>${esc(it.note)}</div>` : "") + (TAGS.tagsOf(it).length ? `<div class="lbl">Tags</div><div class="row">${TAGS.tagsOf(it).map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</div>` : "") : `
+      <div class="lbl">Category</div>${categoryChips(it.category, true)}
+      <div class="lbl">Quick tags</div><input type="text" data-tags value="${esc((it.tags || []).join(", "))}" placeholder="horse, fantasy, pose ref" maxlength="300" enterkeyhint="done">
+      ${(it.daTags || []).length ? `<div class="row" style="margin-top:6px">${it.daTags.slice(0, 14).map((t) => `<button class="tag" data-addtag="${esc(t)}">+ ${esc(t)}</button>`).join("")}</div>` : ""}
+      <div class="lbl">Note</div><textarea rows="2" maxlength="500" placeholder="Add a note…">${esc(it.note || "")}</textarea>
+      <div class="row"><button class="pill accent" data-a="saveNote">Save tags &amp; note</button><span style="flex:1"></span><button class="pill danger" data-a="remove">${svg("trash")} Remove</button></div>`}
+    `, (body) => {
+      body.onclick = (e) => {
+        const add = e.target.closest("[data-addtag]");
+        if (add) {
+          const input = body.querySelector("[data-tags]");
+          const cur = TAGS.parse(input.value);
+          if (!cur.includes(add.dataset.addtag)) cur.push(add.dataset.addtag);
+          input.value = cur.join(", ");
+          add.remove();
+          return;
+        }
+        const chip = e.target.closest("[data-cat]");
+        if (chip) { closeSheet(); return edit([{ op: "move", ids: [it.id], category: chip.dataset.cat }], `Moved to ${chip.dataset.cat || "Uncategorized"}`); }
+        const a = e.target.closest("[data-a]");
+        if (!a) return;
+        if (a.dataset.a === "view") { closeSheet(); openViewer(visible, visible.findIndex((x) => x.id === it.id)); }
+        else if (a.dataset.a === "saveNote") {
+          const note = body.querySelector("textarea").value.trim();
+          const tags = TAGS.parse(body.querySelector("[data-tags]").value);
+          closeSheet();
+          edit([{ op: "edit", id: it.id, note }, { op: "tags", id: it.id, tags }], "Saved");
+        }
+        else if (a.dataset.a === "remove") ask(`Remove “${it.title}” from your Library?`, { okLabel: "Remove", danger: true }).then((ok) => ok && edit([{ op: "remove", ids: [it.id] }], "Removed"));
+      };
+      const nw = body.querySelector("[data-new]");
+      if (nw) nw.onkeydown = (e) => { if (e.key === "Enter" && nw.value.trim()) { const c = nw.value.trim(); closeSheet(); edit([{ op: "move", ids: [it.id], category: c }], `Moved to ${c}`); } };
+      const tg = body.querySelector("[data-tags]");
+      if (tg) tg.onkeydown = (e) => { if (e.key === "Enter") body.querySelector('[data-a="saveNote"]').click(); };
+    });
+  }
+
+  function moveSheet(ids) {
+    openSheet(`<h3>Move ${ids.length} to…</h3><div class="sub">Pick a category or make a new one</div>${categoryChips(null, true)}`, (body) => {
+      body.onclick = (e) => {
+        const chip = e.target.closest("[data-cat]");
+        if (!chip) return;
+        closeSheet(); exitSelect();
+        edit([{ op: "move", ids, category: chip.dataset.cat }], `Moved ${ids.length} to ${chip.dataset.cat || "Uncategorized"}`);
+      };
+      const nw = body.querySelector("[data-new]");
+      nw.onkeydown = (e) => { if (e.key === "Enter" && nw.value.trim()) { closeSheet(); exitSelect(); edit([{ op: "move", ids, category: nw.value.trim() }], `Moved ${ids.length} to ${nw.value.trim()}`); } };
+    });
+  }
+
+  function categoriesSheet() {
+    const counts = {};
+    for (const it of items()) counts[it.category || ""] = (counts[it.category || ""] || 0) + 1;
+    openSheet(`<h3>Categories</h3><div class="sub">Rename or delete. Deleting keeps the deviations (as Uncategorized).</div>
+      ${lib.categories.map((c) => `<div class="cat-row" data-c="${esc(c)}"><input type="text" value="${esc(c)}" maxlength="60"><span class="n">${counts[c] || 0}</span><button class="pill danger" data-del>${svg("trash")}</button></div>`).join("") || '<p class="sub">No categories yet.</p>'}
+      <div class="cat-row"><input type="text" data-add placeholder="New category" maxlength="60"><button class="pill accent" data-addbtn>Add</button></div>`, (body) => {
+      body.querySelectorAll(".cat-row[data-c]").forEach((row) => {
+        const from = row.dataset.c;
+        row.querySelector("input").onchange = (e) => { const to = e.target.value.trim(); if (to && to !== from) edit([{ op: "renameCategory", from, to }], "Renamed"); };
+        row.querySelector("[data-del]").onclick = () => ask(`Delete category “${from}”? Its deviations become Uncategorized.`, { okLabel: "Delete", danger: true }).then((ok) => ok && edit([{ op: "deleteCategory", name: from }], "Category deleted"));
+      });
+      const add = () => { const v = body.querySelector("[data-add]").value.trim(); if (v) { edit([{ op: "addCategory", name: v }], "Category added"); closeSheet(); } };
+      body.querySelector("[data-addbtn]").onclick = add;
+      body.querySelector("[data-add]").onkeydown = (e) => { if (e.key === "Enter") add(); };
+    });
+  }
+
+  function menuSheet() {
+    const opts = [];
+    if (HAS_SERVER || (EXT && EXT.refresh)) opts.push(["refresh", "refresh", "Refresh", "Get the latest from your computer"]);
+    if (CAN_EDIT) opts.push(["add", "size", "Add your own images", "From your photos or files"]);
+    opts.push(["select", "select", "Select several", "Move or remove many at once"]);
+    if (CAN_EDIT) opts.push(["cats", "tag", "Manage categories", ""]);
+    opts.push(["size", "size", "Thumbnail size", ["Small", "Medium", "Large"][state.col <= 130 ? 0 : state.col <= 190 ? 1 : 2]]);
+    opts.push(["slide", "play", "Slideshow speed", store.get("slide", 5) + " seconds"]);
+    if (CAN_EDIT && docUrl) opts.push(["doc", "doc", "Open Google Doc", "Every link, grouped by category"]);
+    opts.push(["home", "home", "Add to Home Screen", "Open this like an app"]);
+    if (EXT && EXT.menu) for (const k in EXT.menu) opts.push([k, EXT.menu[k].icon || "refresh", EXT.menu[k].label, EXT.menu[k].sub || ""]);
+    openSheet(`<h3>My Library</h3><div class="sub">${EXT ? esc(EXT.status || "") : MODE === "edit" ? "Private link — changes sync to your computer" : MODE === "view" ? "Read-only link" : "Offline copy"}</div>
+      <div class="menu-list">${opts.map(([k, ic, t, s]) => `<button data-m="${k}">${svg(ic)}<span>${t}${s ? `<small>${esc(s)}</small>` : ""}</span></button>`).join("")}</div>`, (body) => {
+      body.onclick = (e) => {
+        const b = e.target.closest("[data-m]");
+        if (!b) return;
+        const m = b.dataset.m;
+        if (m === "refresh") { closeSheet(); refresh(); }
+        else if (m === "select") { closeSheet(); enterSelect(); }
+        else if (m === "add") { closeSheet(); $("#addFile").click(); }
+        else if (m === "cats") categoriesSheet();
+        else if (m === "size") {
+          state.col = state.col <= 130 ? 165 : state.col <= 190 ? 250 : 115;
+          store.set("col", state.col);
+          document.documentElement.style.setProperty("--col", state.col + "px");
+          menuSheet();
+        } else if (m === "slide") {
+          const cur = store.get("slide", 5), opts2 = [3, 5, 8, 12];
+          store.set("slide", opts2[(opts2.indexOf(cur) + 1) % opts2.length]);
+          menuSheet();
+        } else if (m === "doc") { const a = document.createElement("a"); a.href = docUrl; a.target = "_blank"; a.rel = "noopener"; a.click(); }
+        else if (m === "home") {
+          const ios = /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+          ask(EXT && EXT.kind === "artifact" ? "In the Claude app, open this page and use Share → Add to Home Screen (or bookmark it in your browser). It always opens your latest Library." :
+            ios ? "Tap the Share button in Safari, then “Add to Home Screen”." : "Open your browser menu (⋮) and choose “Add to Home screen” or “Install app”.", { okLabel: "Got it", noCancel: true });
+        } else if (EXT && EXT.menu && EXT.menu[m]) { closeSheet(); EXT.menu[m].run(); }
+      };
+    });
+  }
+
+  // ---------------------------------------------------------------- selection
+  function enterSelect(id) {
+    state.selecting = true;
+    document.body.classList.add("selecting");
+    if (id) state.selected.add(id);
+    render();
+  }
+  function exitSelect() {
+    state.selecting = false;
+    state.selected.clear();
+    document.body.classList.remove("selecting");
+    render();
+  }
+  function updateSel() {
+    $("#selbar").hidden = !state.selecting;
+    $("#selN").textContent = `${state.selected.size} selected`;
+    $("#selMove").hidden = !CAN_EDIT;
+    $("#selRemove").hidden = !CAN_EDIT;
+    $("#selTag").hidden = !CAN_EDIT;
+  }
+  $("#selCancel").onclick = exitSelect;
+  $("#selMove").onclick = () => state.selected.size && moveSheet([...state.selected]);
+  $("#selView").onclick = () => state.selected.size && openViewer(visible.filter((it) => state.selected.has(it.id)), 0);
+  $("#selTag").onclick = () => {
+    const ids = [...state.selected];
+    if (!ids.length) return;
+    ask(`Add quick tags to ${ids.length}`, { input: true, placeholder: "horse, favourite", okLabel: "Add tags" }).then((v) => {
+      const tags = TAGS.parse(v || "");
+      if (tags.length) { exitSelect(); edit([{ op: "addTags", ids, tags }], `Tagged ${ids.length}`); }
+    });
+  };
+  $("#selRemove").onclick = () => {
+    const ids = [...state.selected];
+    if (ids.length) ask(`Remove ${ids.length} from your Library?`, { okLabel: "Remove", danger: true }).then((ok) => { if (ok) { exitSelect(); edit([{ op: "remove", ids }], `Removed ${ids.length}`); } });
+  };
+
+  // ---------------------------------------------------------------- add your own images (phone/tablet)
+  async function addImages(files) {
+    if (!CAN_EDIT) return toast("This link is view-only", true);
+    files = files.filter((f) => /^image\//.test(f.type || ""));
+    if (!files.length) return;
+    let ok = 0;
+    for (let i = 0; i < files.length; i++) {
+      toast(`Adding ${i + 1} of ${files.length}…`);
+      try {
+        const out = await IMG.prepare(files[i]);
+        if (EXT) {
+          await EXT.upload({ out, category: state.filter || "", tags: [] });
+          ok++;
+          continue;
+        }
+        const data = await IMG.blobToBase64(out.full);
+        const res = await server("apiUpload", BOOT.key, {
+          name: out.name, mime: out.mime, data, thumb: out.thumb, w: out.w, h: out.h,
+          category: state.filter || "", tags: []
+        });
+        if (res && res.library) { lib = norm(res.library); render(); }
+        ok++;
+      } catch (e) { toast("Couldn't add " + (files[i].name || "image") + ": " + e.message, true); }
+    }
+    if (ok) toast(`Added ${ok} image${ok === 1 ? "" : "s"}${state.filter ? " to " + state.filter : ""}`);
+  }
+  $("#addBtn").hidden = !CAN_EDIT;
+  $("#addBtn").onclick = () => $("#addFile").click();
+  $("#addFile").onchange = (e) => { const f = [...e.target.files]; e.target.value = ""; addImages(f); };
+  document.addEventListener("paste", (e) => {
+    if (!CAN_EDIT || (e.target && e.target.matches && e.target.matches("input, textarea"))) return;
+    const files = [...(e.clipboardData && e.clipboardData.files || [])];
+    if (files.length) { e.preventDefault(); addImages(files); }
+  });
+
+  // ---------------------------------------------------------------- events
+  $("#grid").addEventListener("click", (e) => {
+    const tg = e.target.closest("[data-tag]");
+    if (tg && !state.selecting) return toggleTag(tg.dataset.tag);
+    const el = e.target.closest(".card");
+    if (!el) return;
+    const it = lib.items[el.dataset.id];
+    if (!it) return;
+    if (state.selecting) {
+      state.selected.has(it.id) ? state.selected.delete(it.id) : state.selected.add(it.id);
+      el.classList.toggle("sel", state.selected.has(it.id));
+      return updateSel();
+    }
+    if (e.target.closest(".more")) return itemSheet(it);
+    openViewer(visible, visible.findIndex((x) => x.id === it.id));
+  });
+  // Long-press a card to start selecting.
+  $("#grid").addEventListener("contextmenu", (e) => {
+    const el = e.target.closest(".card");
+    if (!el) return;
+    e.preventDefault();
+    if (!state.selecting) enterSelect(el.dataset.id);
+  });
+
+  $("#viewSeg").onclick = (e) => {
+    const b = e.target.closest("button");
+    if (!b) return;
+    if (b.dataset.v === "shuffle" && state.view === "shuffle") state.order.clear();
+    state.view = b.dataset.v;
+    store.set("view", state.view);
+    render();
+  };
+  $("#sort").onchange = (e) => { state.sort = e.target.value; store.set("sort", state.sort); render(); };
+  $("#searchBtn").onclick = () => {
+    const bar = $("#searchbar");
+    bar.hidden = !bar.hidden;
+    $("#searchBtn").classList.toggle("on", !bar.hidden);
+    if (!bar.hidden) $("#q").focus(); else if (state.q) { state.q = ""; $("#q").value = ""; render(); }
+  };
+  let qT;
+  $("#q").oninput = (e) => { clearTimeout(qT); qT = setTimeout(() => { state.q = e.target.value.trim(); render(); }, 150); };
+  $("#randomBtn").onclick = () => {
+    const list = filtered();
+    if (!list.length) return toast("Nothing to pick from", true);
+    const pick = list[Math.floor(Math.random() * list.length)];
+    openViewer(shuffled(list).sort((a, b) => (a.id === pick.id ? -1 : b.id === pick.id ? 1 : 0)), 0);
+  };
+  $("#playBtn").onclick = () => openViewer(shuffled(filtered()), 0, true);
+  $("#menuBtn").onclick = menuSheet;
+
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible" && HAS_SERVER && Date.now() - lastFetch > 60000) refresh(true);
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && !$("#sheet").hidden) closeSheet();
+  });
+
+  // First-visit tip
+  if (!store.get("tipSeen", false) && MODE !== "offline" && /mobi|android|iphone|ipad/i.test(navigator.userAgent)) {
+    const b = $("#banner");
+    b.innerHTML = EXT && EXT.kind === "artifact" ? `<span>Tip: bookmark this page, or add it to your Home Screen from your browser's Share menu, to open your Library in one tap.</span><button>Got it</button>`
+      : `<span>Tip: add this page to your Home Screen to open your Library like an app.</span><button>Got it</button>`;
+    b.hidden = false;
+    b.querySelector("button").onclick = () => { b.hidden = true; store.set("tipSeen", true); };
+  }
+
+  if (EXT) {
+    EXT.onUpdate(() => {
+      MODE = EXT.mode;
+      CAN_EDIT = !!EXT.canEdit;
+      lib = norm(EXT.lib);
+      for (const id of [...state.selected]) if (!lib.items[id]) state.selected.delete(id);
+      if (!$("#sheet").hidden && $("#sheetBody").querySelector("[data-ask]")) return; // don't disturb typing
+      render();
+    });
+    EXT.toast = toast;
+  }
+  render();
+})();
+
+</script>
+</body>
+</html>
